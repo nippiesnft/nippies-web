@@ -8,19 +8,15 @@ body {
   width: 100%;
 }
 
-.app-divide-top {
-  width: 100%;
-}
-
 .app-divide-bottom {
-  width: 100%;
-  position: absolute;
-  left: 0;
   bottom: 0;
 }
 
 .app-divide-top, .app-divide-bottom {
+  width: 100%;
+  position: fixed;
   max-height: 150px;
+  left: 0;
 }
 
 .coming-soon {
