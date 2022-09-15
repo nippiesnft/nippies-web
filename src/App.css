@@ -1,0 +1,38 @@
+body {
+  font-family: "chauncy-pro";
+  background-color: #a1efff;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+}
+
+.app-divide-top {
+  width: 100%;
+}
+
+.app-divide-bottom {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.app-divide-top, .app-divide-bottom {
+  max-height: 150px;
+}
+
+.coming-soon {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 275px;
+}
+
+.nuppy {
+  height: 30%;
+  max-height: 400px;
+  position: fixed;
+}
