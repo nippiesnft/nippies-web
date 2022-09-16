@@ -8,27 +8,27 @@ body {
   width: 100%;
 }
 
-.app-divide-bottom {
-  bottom: 0;
+.app-divide-top {
+  width: 100%;
+  max-height: 150px;
+  margin-top: -10px;
 }
 
-.app-divide-top, .app-divide-bottom {
+.app-divide-bottom {
   width: 100%;
-  position: fixed;
   max-height: 150px;
+  bottom: 0;
   left: 0;
 }
 
-.coming-soon {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-height: 275px;
+.header-texture {
+  width: 100%;
+  background-color: #e8a8ff;
 }
 
-.nuppy {
-  height: 30%;
-  max-height: 400px;
-  position: fixed;
+.header-logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 25px;
 }
