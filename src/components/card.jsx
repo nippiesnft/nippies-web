@@ -5,7 +5,7 @@ export const Card = ({ nippie }) => {
     return (
         <div className="card">
             {nippie?.imgUrl && <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
-                <img src={nippie.imgUrl} className="card-img" style={{maxWidth: window.innerWidth < 700 ? 150 : 200}}/>
+                <img src={nippie.imgUrl} className="card-img" alt={`${nippie.name}`} style={{maxWidth: window.innerWidth < 700 ? 150 : 200}}/>
             </a>}
             {nippie?.videoUrl &&
                 <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
@@ -20,7 +20,7 @@ export const Card = ({ nippie }) => {
                     <span>{nippie.name}</span>
                 </a>
                 <div>
-                    <img src={twitterLogo} className="twitter-logo" />
+                    <img src={twitterLogo} className="twitter-logo" alt="twitter-logo" />
                     <a rel="noopener noreferrer" target="_blank" className="twitter-handle" href={formattedTwitterStr}>{nippie.owner}</a>
                 </div>
             </div>

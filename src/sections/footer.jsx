@@ -15,7 +15,7 @@ export const Footer = ({isMobile}) => {
     return (<>
         <img src={divideBottom} className="app-divide-bottom" alt="nippies fur" />
         <img src={footerTexture} className="texture" alt="nippies fur" />
-        <img src={dontFollowUs} style={followUsStyles} />
+        <img src={dontFollowUs} style={followUsStyles} alt="dont follow us" />
         <div className="footer-copy">
             <span className="disclaimer">Copyright 2022. Nippies. All Rights Reserved.</span>
             <span className="created-by">Created by <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</a></span>

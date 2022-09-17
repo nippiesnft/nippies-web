@@ -10,7 +10,7 @@ import Nippies from './nippiesData.json';
 import { shuffleArray } from './helpers/shuffle';
 
 function App() {
-  const [width, height] = useWindowSize();
+  const [width] = useWindowSize();
   const [isMobile, setIsMobile] = useState(window?.innerWidth < 1024);
   const [shuffledNippies, setShuffledNippies] = useState(null);
 
