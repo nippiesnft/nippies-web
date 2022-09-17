@@ -23,9 +23,29 @@ export const BuyStuff = ({ isMobile }) => {
         width: '30%',
     };
 
+    const digitalLabelStyles = {
+        maxWidth: 500,
+        left: '52%',
+        position: 'absolute',
+        marginTop: '64%',
+        width: '30%',
+        color: 'white',
+        fontSize: isMobile ? '32px' : '80px',
+    };
+
+    const physicalLabelStyles = {
+        maxWidth: 500,
+        left: '13%',
+        position: 'absolute',
+        marginTop: '64%',
+        width: '30%',
+        color: 'white',
+        fontSize: isMobile ? '32px' : '80px',
+    };
+
     const buyStuffPhysicalStyles = {
         maxWidth: 500,
-        left: '15%',
+        left: '13%',
         position: 'absolute',
         marginTop: '32%',
         width: '30%',
@@ -38,8 +58,10 @@ export const BuyStuff = ({ isMobile }) => {
             <img src={buyStuffTexture} className="texture" alt="texture" />
             <a rel="noopener noreferrer" target="_blank" href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">
                 <img src={buyStuffDigital} style={buyStuffDigitalStyles} alt="buy nippie nfts" />
+                <span style={digitalLabelStyles}>Digital</span>
             </a>
             <img src={buyStuffPhysical} style={buyStuffPhysicalStyles} alt="buy physical nippie merch" />
+            <span style={physicalLabelStyles}>Physical</span>
             <img src={divideTop} className="divide-top" alt="nippie top divider" />
         </div>
     );
