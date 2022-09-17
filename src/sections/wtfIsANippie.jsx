@@ -12,7 +12,7 @@ export const WtfIsANippie = ({ isMobile }) => {
         left: isMobile ? '-55px' : 0,
         position: 'absolute',
         zIndex: -1,
-        marginTop: isMobile ? 150 : 0,
+        marginTop: isMobile ? 110 : 0,
     };
 
     const wtfTitleStyles = {

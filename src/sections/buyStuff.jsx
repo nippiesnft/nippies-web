@@ -36,7 +36,7 @@ export const BuyStuff = ({ isMobile }) => {
             <img src={divideBottom} className="divide-bottom" alt="nippie bottom divider" />
             <img src={buyStuffTitle} style={buyStuffStyles} alt="Buy Stuff" />
             <img src={buyStuffTexture} className="texture" alt="texture" />
-            <a href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">
+            <a rel="noopener noreferrer" target="_blank" href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">
                 <img src={buyStuffDigital} style={buyStuffDigitalStyles} alt="buy nippie nfts" />
             </a>
             <img src={buyStuffPhysical} style={buyStuffPhysicalStyles} alt="buy physical nippie merch" />
