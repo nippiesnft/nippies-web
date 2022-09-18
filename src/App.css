@@ -145,12 +145,12 @@ body {
 
 .disclaimer {
   align-self: flex-end;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .created-by {
   position: absolute;
-  right: 5px;
+  right: 10px;
   color: black;
 }
 

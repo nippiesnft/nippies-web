@@ -30,7 +30,7 @@ export const Footer = ({ isMobile }) => {
     };
 
     const footerCopyStyles = {
-        fontSize: isMobile ? 14 : 28
+        fontSize: isMobile ? 12 : 28
     }
 
     return (<>
@@ -45,7 +45,7 @@ export const Footer = ({ isMobile }) => {
         </a>
         <div className="footer-copy" style={footerCopyStyles}>
             <span className="disclaimer">Copyright 2022. Nippies. All Rights Reserved.</span>
-            <span className="created-by">Created by <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</a></span>
+            <span className="created-by">Created by <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</a>.</span>
         </div>
     </>
     );
