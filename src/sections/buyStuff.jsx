@@ -54,7 +54,7 @@ export const BuyStuff = ({ isMobile }) => {
     return (
         <>
             <div className="buy-stuff">
-                <a id="shop"></a>
+                <a id="shop" href="/#" className="hide-anchor">shop</a>
                 <img src={divideBottom} className="divide-bottom" alt="nippie bottom divider" />
                 <img src={buyStuffTitle} style={buyStuffStyles} alt="Buy Stuff" />
                 <img src={buyStuffTexture} className="texture" alt="texture" />
@@ -64,7 +64,7 @@ export const BuyStuff = ({ isMobile }) => {
                 </a>
                 <img src={buyStuffPhysical} style={buyStuffPhysicalStyles} alt="buy physical nippie merch" />
                 <span style={physicalLabelStyles}>Physical</span>
-                <a id="wtf"></a>
+                <a id="wtf" href="/#" className="hide-anchor">wtf</a>
                 <img src={divideTop} className="divide-top" alt="nippie top divider" />
             </div>
         </>

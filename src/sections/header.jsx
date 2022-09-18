@@ -12,10 +12,9 @@ export const Header = ({ isMobile }) => {
     };
 
     return (<div className="header">
-        <a id="header" />
         <img src={headerTexture} className="texture" style={headerTextureStyles} alt="header texture" />
         <img src={headerLogo} className="header-logo" style={headerLogoStyles} alt="header logo" />
         <img src={divideTop} className="app-divide-top" alt="nippies fur" />
-        <a id="meet"></a>
+        <a id="meet" href="/#" className="hide-anchor">meet</a>
     </div>);
 }

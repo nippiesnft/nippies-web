@@ -34,7 +34,7 @@ export const NavBar = ({ isMobile }) => {
 
     return (
         <div className="navbar" style={navBarStyles}>
-            <img src={navLogo} style={navLogoStyles} alt="nippies logo" />
+            <img src={navLogo} style={navLogoStyles} alt="nippies logo" onClick={() => window.scrollTo(0,0)}/>
             <div style={navLinks}>
                 <a className="nav-link" style={navLink} href="#meet">Meet</a>
                 <a className="nav-link" style={navLink} href="#shop">Shop</a>
