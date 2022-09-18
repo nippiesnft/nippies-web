@@ -14,12 +14,13 @@ export const MeetTheNippies = ({ isMobile, shuffledNippies }) => {
 
     const meetNippiesStyles = {
         maxWidth: isMobile ? 200 : 500,
+        marginTop: isMobile ? 100 : 225,
     };
 
     const visibleNippies = shuffledNippies.slice(0, count);
 
     return (
-        <div style={{ marginLeft: 10 }}>
+        <div style={{ marginLeft: 15 }}>
             <img src={meetNippies} style={meetNippiesStyles} alt="meet the nippies" />
             <div className="card-grid" style={{ gridTemplateColumns: window.innerWidth < 700 ? 'repeat(2, 2fr)' : 'repeat(3, 3fr)', maxWidth: window.innerWidth < 700 ? 350 : 800 }}>
                 {visibleNippies.map((nippie, index) => (
@@ -30,7 +31,7 @@ export const MeetTheNippies = ({ isMobile, shuffledNippies }) => {
             {visibleNippies.length < Nippies.length &&
                 <>
                     <span className="load-more" onClick={() => setCount(count + pageSize)}>Load More...</span>
-                    <div className="show-all" onClick={() => setCount(count + Nippies.length)}>Show All</div>
+                    <div className="show-all" onClick={() => setCount(count + Nippies.length)}>Load All</div>
                 </>
             }
         </div>

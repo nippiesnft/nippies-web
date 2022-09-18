@@ -9,7 +9,7 @@ export const Card = ({ nippie }) => {
             </a>}
             {nippie?.videoUrl &&
                 <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
-                    <video width={window.innerWidth < 700 ? 150 : 200} height={window.innerWidth < 700 ? 150 : 200} className="card-img" autoPlay muted>
+                    <video width={window.innerWidth < 700 ? 150 : 200} height={window.innerWidth < 700 ? 150 : 200} className="card-img" muted>
                         <source src={nippie.videoUrl} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

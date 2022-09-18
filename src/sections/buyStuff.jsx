@@ -19,7 +19,7 @@ export const BuyStuff = ({ isMobile }) => {
         maxWidth: 500,
         left: '55%',
         position: 'absolute',
-        marginTop: '34%',
+        marginTop: '30%',
         width: '30%',
     };
 
@@ -27,7 +27,7 @@ export const BuyStuff = ({ isMobile }) => {
         maxWidth: 500,
         left: '52%',
         position: 'absolute',
-        marginTop: '64%',
+        marginTop: '60%',
         width: '30%',
         color: 'white',
         fontSize: isMobile ? '32px' : '80px',
@@ -37,7 +37,7 @@ export const BuyStuff = ({ isMobile }) => {
         maxWidth: 500,
         left: '13%',
         position: 'absolute',
-        marginTop: '64%',
+        marginTop: '60%',
         width: '30%',
         color: 'white',
         fontSize: isMobile ? '32px' : '80px',
@@ -47,22 +47,26 @@ export const BuyStuff = ({ isMobile }) => {
         maxWidth: 500,
         left: '13%',
         position: 'absolute',
-        marginTop: '32%',
+        marginTop: '28%',
         width: '30%',
     };
 
     return (
-        <div className="buy-stuff">
-            <img src={divideBottom} className="divide-bottom" alt="nippie bottom divider" />
-            <img src={buyStuffTitle} style={buyStuffStyles} alt="Buy Stuff" />
-            <img src={buyStuffTexture} className="texture" alt="texture" />
-            <a rel="noopener noreferrer" target="_blank" href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">
-                <img src={buyStuffDigital} style={buyStuffDigitalStyles} alt="buy nippie nfts" />
-                <span style={digitalLabelStyles}>Digital</span>
-            </a>
-            <img src={buyStuffPhysical} style={buyStuffPhysicalStyles} alt="buy physical nippie merch" />
-            <span style={physicalLabelStyles}>Physical</span>
-            <img src={divideTop} className="divide-top" alt="nippie top divider" />
-        </div>
+        <>
+            <div className="buy-stuff">
+                <a id="shop"></a>
+                <img src={divideBottom} className="divide-bottom" alt="nippie bottom divider" />
+                <img src={buyStuffTitle} style={buyStuffStyles} alt="Buy Stuff" />
+                <img src={buyStuffTexture} className="texture" alt="texture" />
+                <a rel="noopener noreferrer" target="_blank" href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">
+                    <img src={buyStuffDigital} style={buyStuffDigitalStyles} alt="buy nippie nfts" />
+                    <span style={digitalLabelStyles}>Digital</span>
+                </a>
+                <img src={buyStuffPhysical} style={buyStuffPhysicalStyles} alt="buy physical nippie merch" />
+                <span style={physicalLabelStyles}>Physical</span>
+                <a id="wtf"></a>
+                <img src={divideTop} className="divide-top" alt="nippie top divider" />
+            </div>
+        </>
     );
 }

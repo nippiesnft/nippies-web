@@ -8,6 +8,7 @@ import { Footer } from './sections/footer';
 import { WtfIsANippie } from './sections/wtfIsANippie';
 import Nippies from './nippiesData.json';
 import { shuffleArray } from './helpers/shuffle';
+import { NavBar } from './components/navbar';
 
 function App() {
   const [width] = useWindowSize();
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="app">
       <Header isMobile={isMobile} />
+      <NavBar isMobile={isMobile} />
       <MeetTheNippies isMobile={isMobile} shuffledNippies={shuffledNippies} />
       <BuyStuff isMobile={isMobile} />
       <WtfIsANippie isMobile={isMobile} />
