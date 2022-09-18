@@ -10,6 +10,7 @@ export const NavBar = ({ isMobile }) => {
         width: 100,
         height: 40,
         marginLeft: isMobile ? 25 : 50,
+        cursor: 'pointer',
     }
 
     const navTwitterStyles = {
