@@ -4,7 +4,7 @@ const navTwitter = require("../img/design/nav-twitter.png");
 
 export const NavBar = ({ isMobile }) => {
     const navBarStyles = {
-        marginTop: isMobile ? -100 : -200
+        marginTop: isMobile ? -200 : -250
     }
     const navLogoStyles = {
         width: 100,

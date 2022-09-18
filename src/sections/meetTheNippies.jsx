@@ -14,7 +14,7 @@ export const MeetTheNippies = ({ isMobile, shuffledNippies }) => {
 
     const meetNippiesStyles = {
         maxWidth: isMobile ? 200 : 500,
-        marginTop: isMobile ? 100 : 225,
+        marginTop: isMobile ? 150 : 250,
     };
 
     const visibleNippies = shuffledNippies.slice(0, count);
