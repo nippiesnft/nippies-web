@@ -6,19 +6,19 @@ const instaLogo = require("../img/design/footer-ig.png");
 
 export const Footer = ({ isMobile }) => {
     const instaStyles = {
-        maxWidth: isMobile ? 50 : 150,
-        marginLeft: isMobile ? -25 : -75,
-        left: '58%',
+        maxWidth: isMobile ? 50 : 180,
+        marginLeft: isMobile ? -25 : -90,
+        left: '59%',
         position: 'absolute',
-        marginTop: '30%'
+        marginTop: isMobile ? '30%' : '25%'
     };
 
     const twitterStyles = {
-        maxWidth: isMobile ? 50 : 150,
-        marginLeft: isMobile ? -25 : -75,
-        left: '38%',
+        maxWidth: isMobile ? 50 : 180,
+        marginLeft: isMobile ? -25 : -90,
+        left: '39%',
         position: 'absolute',
-        marginTop: '30%'
+        marginTop: isMobile ? '30%' : '25%'
     };
 
     const followUsStyles = {

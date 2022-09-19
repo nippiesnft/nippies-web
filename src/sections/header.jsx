@@ -9,6 +9,7 @@ export const Header = ({ isMobile }) => {
 
     const headerTextureStyles = {
         maxHeight: isMobile ? 250 : 550,
+        zIndex: 20,
     };
 
     return (<div className="header">

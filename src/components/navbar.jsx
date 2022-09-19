@@ -16,7 +16,6 @@ export const NavBar = ({ isMobile }) => {
     const navTwitterStyles = {
         width: isMobile ? 20 : 30,
         paddingLeft: isMobile ? 10 : 20,
-        paddingRight: isMobile ? 10 : 20,
         verticalAlign: 'middle',
         marginTop: -10
     }
