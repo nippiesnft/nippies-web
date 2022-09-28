@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Nippies from '../../nippiesData.json';
 import { Card } from '../../components/card/card';
 import { useIsMobile } from "../../hooks/useIsMobile";
-import { HiddenAnchor } from '../../globalStyles';
 import {
     Container,
     Title,
