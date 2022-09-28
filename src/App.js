@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useWindowSize } from './hooks'; 
-import './App.css';
 import { Header } from './sections/header';
 import { MeetTheNippies } from './sections/meetTheNippies';
 import { BuyStuff } from './sections/buyStuff';
@@ -9,29 +7,25 @@ import { WtfIsANippie } from './sections/wtfIsANippie';
 import Nippies from './nippiesData.json';
 import { shuffleArray } from './helpers/shuffle';
 import { NavBar } from './components/navbar';
+import GlobalStyle from './globalStyles';
 
 function App() {
-  const [width] = useWindowSize();
-  const [isMobile, setIsMobile] = useState(window?.innerWidth < 1024);
   const [shuffledNippies, setShuffledNippies] = useState(null);
-
-  useEffect(() => {
-    setIsMobile(width < 1024);
-  }, [width])
 
   useEffect(() => {
     setShuffledNippies(shuffleArray(Nippies));
   }, [])
 
   return (
-    <div className="app">
-      <Header isMobile={isMobile} />
-      <NavBar isMobile={isMobile} />
-      <MeetTheNippies isMobile={isMobile} shuffledNippies={shuffledNippies} />
-      <BuyStuff isMobile={isMobile} />
-      <WtfIsANippie isMobile={isMobile} />
-      <Footer isMobile={isMobile} />
-    </div>
+    <>
+        <GlobalStyle />
+        <Header />
+        <NavBar />
+        <MeetTheNippies shuffledNippies={shuffledNippies} />
+        <BuyStuff />
+        <WtfIsANippie />
+        <Footer />
+    </>
   );
 }
 

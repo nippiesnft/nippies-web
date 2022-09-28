@@ -1,48 +1,64 @@
+import styled from "styled-components";
+import { useIsMobile } from "../hooks/useIsMobile";
+
 const navLogo = require("../img/design/nav-logo.png");
 const navTwitter = require("../img/design/nav-twitter.png");
 
+const TwitterLogo = styled.img`
+width: ${props => props.isMobile ? '20px' : '30px'};
+padding-left: ${props => props.isMobile ? '10px' : '20px'};
+vertical-align: middle;
+margin-top: -10px;
+`
 
-export const NavBar = ({ isMobile }) => {
-    const navBarStyles = {
-        marginTop: isMobile ? -200 : -250
-    }
-    const navLogoStyles = {
-        width: 100,
-        height: 40,
-        marginLeft: isMobile ? 25 : 50,
-        cursor: 'pointer',
-    }
+const Container = styled.div`
+width: 100%;
+display: flex;
+position: sticky;
+top: 0px;
+max-height: 100px;
+background-color: #a1efff;
+padding-top: 15px;
+padding-bottom: 15px;
+z-index: 10;
+margin-top: ${props => props.isMobile ? '-200px' : '-250px'};
+`;
 
-    const navTwitterStyles = {
-        width: isMobile ? 20 : 30,
-        paddingLeft: isMobile ? 10 : 20,
-        verticalAlign: 'middle',
-        marginTop: -10
-    }
+const NavLogo = styled.img`
+width: 100px;
+height: 40px;
+margin-left: ${props => props.isMobile ? '25px' : '50px'};
+cursor: pointer;
+`
 
-    const navLinks = {
-        marginLeft: 'auto',
-        marginRight: isMobile ? 25 : 50,
-        marginTop: isMobile ? 10 : 0,
-    }
+const NavLinks = styled.div`
+margin-left: auto;
+margin-right: ${props => props.isMobile ? '25px' : '50px'};
+margin-top: ${props => props.isMobile ? '10px' : '0px'};
+`
 
-    const navLink = {
-        fontSize: isMobile ? 20 : 25,
-        paddingLeft: isMobile ? 10 : 20,
-        paddingRight: isMobile ? 10 : 20,
-    }
+const NavLink = styled.a`
+text-decoration: none;
+color: black;
+font-size: ${props => props.isMobile ? '20px' : '25px'};
+padding-left: ${props => props.isMobile ? '10px' : '20px'};
+padding-right: ${props => props.isMobile ? '10px' : '20px'};
+`
+
+export const NavBar = () => {
+    const isMobile = useIsMobile();
 
     return (
-        <div className="navbar" style={navBarStyles}>
-            <img src={navLogo} style={navLogoStyles} alt="nippies logo" onClick={() => window.scrollTo(0,0)}/>
-            <div style={navLinks}>
-                <a className="nav-link" style={navLink} href="#meet">Meet</a>
-                <a className="nav-link" style={navLink} href="#shop">Shop</a>
-                <a className="nav-link" style={navLink} href="#wtf">Wtf</a>
+        <Container isMobile={isMobile}>
+            <NavLogo src={navLogo} alt="nippies logo" onClick={() => window.scrollTo(0, 0)} isMobile={isMobile} />
+            <NavLinks isMobile={isMobile}>
+                <NavLink href="#meet" isMobile={isMobile}>Meet</NavLink>
+                <NavLink href="#shop" isMobile={isMobile}>Shop</NavLink>
+                <NavLink href="#wtf" isMobile={isMobile}>Wtf</NavLink>
                 <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/nippies_"}>
-                    <img src={navTwitter} style={navTwitterStyles} alt="red twitter logo" />
+                    <TwitterLogo src={navTwitter} alt="red twitter logo" isMobile={isMobile} />
                 </a>
-            </div>
-        </div>
+            </NavLinks>
+        </Container>
     );
 }
