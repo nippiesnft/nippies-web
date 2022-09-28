@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     body {
         text-align: center;
         width: 100%;
@@ -14,4 +15,9 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export default GlobalStyle;
+export const HiddenAnchor = styled.a`
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+`
+
