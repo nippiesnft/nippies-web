@@ -32,7 +32,7 @@ export const BuyStuff = () => {
             </a>
             <PhysicalMerchImage src={buyStuffPhysical} alt="buy physical nippie merch" />
             <PhysicalMerchLabel isMobile={isMobile}>Physical</PhysicalMerchLabel>
-            <HiddenAnchor id="wtf" href="/#">wtf</HiddenAnchor>
+            {!isMobile && <HiddenAnchor id="wtf" href="/#">wtf</HiddenAnchor>}
             <DivideTop src={divideTop} alt="nippie top divider" />
         </>
     );

@@ -20,6 +20,7 @@ function App() {
     <>
         <GlobalStyle />
         <Header />
+        <HiddenAnchor id="meet" href="/#">meet</HiddenAnchor>
         <NavBar />
         <MeetTheNippies shuffledNippies={shuffledNippies} />
         <HiddenAnchor id="shop" href="/#">shop</HiddenAnchor>

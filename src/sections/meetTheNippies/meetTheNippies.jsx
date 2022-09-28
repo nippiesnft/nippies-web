@@ -36,22 +36,19 @@ export const MeetTheNippies = ({ shuffledNippies }) => {
     const visibleNippies = shuffledNippies.slice(0, count);
 
     return (
-        <>
-            <HiddenAnchor id="meet" href="/#">meet</HiddenAnchor>
-            <Container>
-                <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} />
-                <CardGrid isMobile={isMobile}>
-                    {visibleNippies.map((nippie, index) => (
-                        <Card key={index} nippie={nippie} isMobile={isMobile} />
-                    ))}
-                </CardGrid>
-                {visibleNippies.length < Nippies.length &&
-                    <>
-                        <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
-                        <ShowAll onClick={() => setCount(count + Nippies.length)}>Show All</ShowAll>
-                    </>
-                }
-            </Container>
-        </>
+        <Container>
+            <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} />
+            <CardGrid isMobile={isMobile}>
+                {visibleNippies.map((nippie, index) => (
+                    <Card key={index} nippie={nippie} isMobile={isMobile} />
+                ))}
+            </CardGrid>
+            {visibleNippies.length < Nippies.length &&
+                <>
+                    <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
+                    <ShowAll onClick={() => setCount(count + Nippies.length)}>Show All</ShowAll>
+                </>
+            }
+        </Container>
     );
 }
