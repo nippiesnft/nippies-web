@@ -6,7 +6,8 @@ import {
     Title,
     CardGrid,
     LoadMore,
-    Sort
+    Sort,
+    SortContainer
 } from './styles';
 import { getNippies } from '../../helpers/nippiesData';
 
@@ -62,13 +63,13 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     return (
         <>
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} tabIndex={0} />
-            <div>
+            <SortContainer>
                 <Sort 
                     tabIndex={0} 
                     onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
                 >{sortCopy}</Sort>
-            </div>
+            </SortContainer>
             <CardGrid isMobile={isMobile}>
                 {visibleNippies.map((nippie, index) => (
                     <Card key={index} nippie={nippie} isMobile={isMobile} />

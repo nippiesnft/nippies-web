@@ -22,10 +22,13 @@ text-decoration: underline;
 cursor: pointer;
 `
 
+export const SortContainer = styled.div`
+margin-top: 30px;
+`
+
 export const Sort
  = styled.span`
 color: #d21731;
-margin-top: 30px;
 font-size: 24px;
 text-decoration: underline;
 cursor: pointer;
