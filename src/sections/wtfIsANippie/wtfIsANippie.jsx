@@ -19,12 +19,12 @@ export const WtfIsANippie = () => {
             <LeftSide>
                 <Nuppy src={nuppy} alt="nuppy the nippie" isMobile={isMobile} />
             </LeftSide>
-            <RightSide>
+            <RightSide isMobile={isMobile}>
                 <>
                     <Title src={wtf} alt="wtf is a nippie" isMobile={isMobile} tabIndex={0} />
                     {isMobile && <HiddenAnchor tabIndex={-1} id="wtf" href="/#">wtf</HiddenAnchor>}
                 </>
-                <span tabIndex={0}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                <div tabIndex={0}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </RightSide>
         </Container>
     );

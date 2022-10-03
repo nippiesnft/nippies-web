@@ -23,9 +23,11 @@ text-align: left;
 max-width: 600px;
 margin-right: 1.5em;
 margin-bottom: 10px;
+min-height: ${props => props.isMobile ? '0px' : '350px'};
 `
 
 export const Title = styled.img`
 width: 100%;
 margin-bottom: ${props => props.isMobile ? '20px' : '40px'};
+max-width: ${props => props.isMobile ? '200px' : '500px'};
 `
