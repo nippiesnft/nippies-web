@@ -1,22 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    text-align: left;
     margin-bottom: 30px;
 `
 
 export const Image = styled.img`
-    outline: 5px solid black;
-    max-width: ${window.innerWidth < 700 ? '150px' : '200px'};
+    transform: ${props => props.offset ? `rotate(${props.offset}deg)` : 'rotate(0)'};
+    max-width: ${window.innerWidth < 700 ? '175px' : '215px'};
 `
 
 export const Details = styled.div`
-    margin-left: -5px;
-`
-
-export const Video = styled.video`
-    outline: 5px solid black;
-    max-width: ${window.innerWidth < 700 ? '150px' : '200px'};
+    text-align: left;
+    margin-left: ${props => props.isMobile ? '20px' : '40px'};
 `
 
 export const Owner = styled.a`

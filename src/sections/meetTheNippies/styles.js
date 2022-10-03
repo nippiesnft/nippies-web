@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin-left: 15px;
 `
 
 export const Title = styled.img`
@@ -15,20 +14,22 @@ margin-top: 60px;
 margin-left: auto;
 margin-right: auto;
 display: grid;
-gap: 1rem;
 grid-template-columns: ${props => props.isMobile ? 'repeat(2, 2fr)' : 'repeat(3, 3fr)'};
-max-width: ${props => props.isMobile ? '350px' : '800px'};
+max-width: ${props => props.isMobile ? '445px' : '800px'};
 `
 
 export const LoadMore = styled.span`
+color: #d21731;
 font-size: 25px;
 text-decoration: underline;
 cursor: pointer;
 `
 
-export const ShowAll = styled.div`
+export const Alphabetize
+ = styled.div`
+color: #d21731;
 margin-top: 30px;
-font-size: 18px;
+font-size: 20px;
 text-decoration: underline;
 cursor: pointer;
 `

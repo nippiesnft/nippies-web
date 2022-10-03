@@ -4,16 +4,16 @@ import { MeetTheNippies } from './sections/meetTheNippies/meetTheNippies';
 import { BuyStuff } from './sections/buyStuff/buyStuff';
 import { Footer } from './sections/footer/footer';
 import { WtfIsANippie } from './sections/wtfIsANippie/wtfIsANippie';
-import Nippies from './nippiesData.json';
-import { shuffleArray } from './helpers/shuffle';
 import { NavBar } from './components/navbar/navbar';
 import { GlobalStyle, HiddenAnchor } from './globalStyles';
+import { getNippies } from './helpers/nippiesData';
 
 function App() {
-  const [shuffledNippies, setShuffledNippies] = useState(null);
+  const [nippies, setNippies] = useState(null);
 
   useEffect(() => {
-    setShuffledNippies(shuffleArray(Nippies));
+    // shuffle nippies on initial load
+    setNippies(getNippies("shuffle"));
   }, [])
 
   return (
@@ -22,7 +22,7 @@ function App() {
         <Header />
         <HiddenAnchor id="meet" href="/#">meet</HiddenAnchor>
         <NavBar />
-        <MeetTheNippies shuffledNippies={shuffledNippies} />
+        <MeetTheNippies nippies={nippies} setNippies={setNippies}/>
         <HiddenAnchor id="shop" href="/#">shop</HiddenAnchor>
         <BuyStuff />
         <WtfIsANippie />

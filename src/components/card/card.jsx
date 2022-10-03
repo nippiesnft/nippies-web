@@ -1,7 +1,7 @@
+import { useIsMobile } from '../../hooks/useIsMobile';
 import {
     Container,
     Image,
-    Video,
     Details,
     Owner,
     TwitterLogo,
@@ -11,22 +11,15 @@ import {
 const twitterLogo = require("../../img/design/twitter.png")
 
 export const Card = ({ nippie }) => {
+    const isMobile = useIsMobile();
     const formattedTwitterStr = `https://twitter.com/${nippie.owner.replace('@', '')}`;
 
     return (
         <Container>
             {nippie?.imgUrl && <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
-                <Image src={nippie.imgUrl} alt={`${nippie.name}`} />
+                <Image src={nippie.imgUrl} alt={`${nippie.name}`} offset={nippie.offset}/>
             </a>}
-            {nippie?.videoUrl &&
-                <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
-                    <Video width={window.innerWidth < 700 ? 150 : 200} height={window.innerWidth < 700 ? 150 : 200} muted>
-                        <source src={nippie.videoUrl} type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </Video>
-                </a>
-            }
-            <Details>
+            <Details isMobile={isMobile}>
                 <Owner rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} >
                     <span>{nippie.name}</span>
                 </Owner>

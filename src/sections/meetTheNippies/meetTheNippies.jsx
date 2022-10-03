@@ -7,14 +7,16 @@ import {
     Title,
     CardGrid,
     LoadMore,
-    ShowAll
+    Alphabetize
 } from './styles';
+import { getNippies } from '../../helpers/nippiesData';
 
 const meetNippies = require("../../img/design/meet-nippies.png");
 
-export const MeetTheNippies = ({ shuffledNippies }) => {
+export const MeetTheNippies = ({ nippies, setNippies }) => {
     const pageSize = 6;
     const [count, setCount] = useState(pageSize);
+    const [sortCopy, setSortCopy] = useState("alphabetize");
     const [currentScrollTop, setCurrentScrollTop] = useState(0)
     const isMobile = useIsMobile();
 
@@ -22,31 +24,37 @@ export const MeetTheNippies = ({ shuffledNippies }) => {
         setCurrentScrollTop(document.documentElement.scrollTop)
         setCount(count + pageSize)
     }
+    const handleAlphabetize = () => {
+        setSortCopy("shuffle");
+        setNippies(getNippies("alphabetize"));
+        setCount(nippies.length);
+    }
+
+    const handleShuffle = () => {
+        setSortCopy("alphabetize");
+        setNippies(getNippies("shuffle"));
+        setCount(pageSize);
+    }
 
     useEffect(() => {
         window.scrollTo(0, currentScrollTop)
     }, [currentScrollTop])
 
+    if (!nippies) return null;
 
-    if (!shuffledNippies) {
-        return null;
-    }
-
-    const visibleNippies = shuffledNippies.slice(0, count);
+    const visibleNippies = nippies.slice(0, count);
 
     return (
         <Container>
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} />
+            <Alphabetize onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}>{sortCopy}</Alphabetize>
             <CardGrid isMobile={isMobile}>
                 {visibleNippies.map((nippie, index) => (
                     <Card key={index} nippie={nippie} isMobile={isMobile} />
                 ))}
             </CardGrid>
             {visibleNippies.length < Nippies.length &&
-                <>
-                    <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
-                    <ShowAll onClick={() => setCount(count + Nippies.length)}>Show All</ShowAll>
-                </>
+                <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
             }
         </Container>
     );
