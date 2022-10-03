@@ -1,16 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-`
-
 export const Title = styled.img`
 max-width: ${props => props.isMobile ? '200px' : '500px'};
-margin-top: ${props => props.isMobile ? '150px' : '250px'};
+margin-top: ${props => props.isMobile ? '150px' : '200px'};
 `
 
 export const CardGrid = styled.div`
 margin-top: 50px;
-margin-top: 60px;
+margin-bottom: 25px;
 margin-left: auto;
 margin-right: auto;
 display: grid;
@@ -20,16 +17,16 @@ max-width: ${props => props.isMobile ? '445px' : '800px'};
 
 export const LoadMore = styled.span`
 color: #d21731;
-font-size: 25px;
+font-size: 24px;
 text-decoration: underline;
 cursor: pointer;
 `
 
-export const Alphabetize
+export const Sort
  = styled.div`
 color: #d21731;
 margin-top: 30px;
-font-size: 20px;
+font-size: 24px;
 text-decoration: underline;
 cursor: pointer;
 `

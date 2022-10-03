@@ -17,6 +17,7 @@ z-index: 20;
 `
 
 export const DivideBottom = styled.img`
+margin-top: 30px;
 width: 100%;
 `
 

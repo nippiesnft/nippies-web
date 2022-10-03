@@ -3,11 +3,10 @@ import Nippies from '../../nippiesData.json';
 import { Card } from '../../components/card/card';
 import { useIsMobile } from "../../hooks/useIsMobile";
 import {
-    Container,
     Title,
     CardGrid,
     LoadMore,
-    Alphabetize
+    Sort
 } from './styles';
 import { getNippies } from '../../helpers/nippiesData';
 
@@ -27,7 +26,11 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     const handleAlphabetize = () => {
         setSortCopy("shuffle");
         setNippies(getNippies("alphabetize"));
-        setCount(nippies.length);
+        if (count === pageSize) {
+            // memoized - wont force update if numbers match
+            setCount(0);
+        }
+        setCount(pageSize);
     }
 
     const handleShuffle = () => {
@@ -45,9 +48,9 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     const visibleNippies = nippies.slice(0, count);
 
     return (
-        <Container>
+        <>
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} />
-            <Alphabetize onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}>{sortCopy}</Alphabetize>
+            <Sort onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}>{sortCopy}</Sort>
             <CardGrid isMobile={isMobile}>
                 {visibleNippies.map((nippie, index) => (
                     <Card key={index} nippie={nippie} isMobile={isMobile} />
@@ -56,6 +59,6 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
             {visibleNippies.length < Nippies.length &&
                 <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
             }
-        </Container>
+        </>
     );
 }

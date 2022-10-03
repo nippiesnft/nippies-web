@@ -23,6 +23,7 @@ bottom: 0;
 margin: auto;
 margin-top: 25px;
 max-height: ${props => props.isMobile ? '200px' : '500px'};
+z-index: 21;
 `
 
 export const TopDivider = styled.img`

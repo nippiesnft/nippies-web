@@ -7,7 +7,8 @@ import {
     NippleInstagram,
     FooterCopy,
     Disclaimer,
-    CreatedBy
+    CreatedBy,
+    Creator
 } from './styles'
 const divideBottom = require("../../img/design/divide-bottom.png");
 const footerTexture = require("../../img/design/footer-texture.png");
@@ -30,7 +31,7 @@ export const Footer = () => {
         </a>
         <FooterCopy isMobile={isMobile}>
             <Disclaimer>Copyright 2022. Nippies. All Rights Reserved.</Disclaimer>
-            <CreatedBy>Created by <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</a>.</CreatedBy>
+            <CreatedBy>Created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</Creator>.</CreatedBy>
         </FooterCopy>
     </>
     );

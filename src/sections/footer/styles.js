@@ -25,8 +25,8 @@ margin-left: ${props => props.isMobile ? '-100px' : '-250px'};
 export const NippleTwitter = styled.img`
 position: absolute;
 left: 39%;
-max-width: ${props => props.isMobile ? '50px' : '180px'};
-margin-left: ${props => props.isMobile ? '-25px' : '-90px'};
+max-width: ${props => props.isMobile ? '75px' : '180px'};
+margin-left: ${props => props.isMobile ? '-50px' : '-90px'};
 margin-top: ${props => props.isMobile ? '30%' : '25%'};
 `
 
@@ -34,7 +34,7 @@ export const NippleInstagram = styled.img`
 position: absolute;
 left: 59%;
 margin-top: ${props => props.isMobile ? '30%' : '25%'};
-max-width: ${props => props.isMobile ? '50px' : '180px'};
+max-width: ${props => props.isMobile ? '75px' : '180px'};
 margin-left: ${props => props.isMobile ? '-25px' : '-90px'};
 `
 
@@ -43,7 +43,7 @@ padding-top: 20px;
 padding-bottom: 10px;
 display: flex;
 background: #e8a8ff;
-font-size: ${props => props.isMobile ? '12px' : '28px'};
+font-size: ${props => props.isMobile ? '10px' : '14px'};
 `
 
 export const Disclaimer = styled.span`
@@ -54,5 +54,8 @@ margin-left: 10px;
 export const CreatedBy = styled.span`
 position: absolute;
 right: 10px;
+`
+
+export const Creator = styled.a`
 color: black;
 `
