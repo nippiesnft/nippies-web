@@ -13,9 +13,15 @@ const navTwitter = require("../../img/design/nav-twitter.png");
 export const NavBar = () => {
     const isMobile = useIsMobile();
 
+    const handleScrollToTopViaKeyboard = (event) => {
+        if (event.keyCode === 13) {
+            window.scrollTo(0, 0)
+        }
+    }
+
     return (
         <Container isMobile={isMobile}>
-            <NavLogo src={navLogo} alt="nippies logo" onClick={() => window.scrollTo(0, 0)} isMobile={isMobile} />
+            <NavLogo src={navLogo} alt="nippies logo" onClick={() => window.scrollTo(0, 0)} onKeyDown={(event) => handleScrollToTopViaKeyboard(event)} isMobile={isMobile} tabIndex={0} />
             <NavLinks isMobile={isMobile}>
                 <NavLink href="#meet" isMobile={isMobile}>Meet</NavLink>
                 <NavLink href="#shop" isMobile={isMobile}>Shop</NavLink>

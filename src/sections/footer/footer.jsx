@@ -22,7 +22,7 @@ export const Footer = () => {
     return (<>
         <BottomDivider src={divideBottom} alt="nippies fur" />
         <Texture src={footerTexture} alt="nippies fur" />
-        <DontFollowUs src={dontFollowUs} alt="dont follow us" isMobile={isMobile} />
+        <DontFollowUs src={dontFollowUs} alt="dont follow us" isMobile={isMobile} tabIndex={0} />
         <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/nippies_"}>
             <NippleTwitter src={twitterLogo} alt="nippie twitter logo" isMobile={isMobile} />
         </a>
@@ -30,8 +30,8 @@ export const Footer = () => {
             <NippleInstagram src={instaLogo} alt="nippie instagram logo" isMobile={isMobile} />
         </a>
         <FooterCopy isMobile={isMobile}>
-            <Disclaimer>Copyright 2022. Nippies. All Rights Reserved.</Disclaimer>
-            <CreatedBy>Created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</Creator>.</CreatedBy>
+            <Disclaimer tabIndex={0}>Copyright 2022. Nippies. All Rights Reserved.</Disclaimer>
+            <CreatedBy tabIndex={0}>Created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNdo">@0xNdo</Creator>.</CreatedBy>
         </FooterCopy>
     </>
     );

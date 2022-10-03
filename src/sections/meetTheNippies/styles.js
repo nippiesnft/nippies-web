@@ -23,7 +23,7 @@ cursor: pointer;
 `
 
 export const Sort
- = styled.div`
+ = styled.span`
 color: #d21731;
 margin-top: 30px;
 font-size: 24px;

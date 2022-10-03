@@ -16,9 +16,11 @@ export const Card = ({ nippie }) => {
 
     return (
         <Container>
-            {nippie?.imgUrl && <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl}>
-                <Image src={nippie.imgUrl} alt={`${nippie.name}`} offset={nippie.offset}/>
-            </a>}
+            {nippie?.imgUrl && 
+                <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} tabIndex={-1}>
+                    <Image src={nippie.imgUrl} alt={`${nippie.name}`} offset={nippie.offset} />
+                </a>
+            }
             <Details isMobile={isMobile}>
                 <Owner rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} >
                     <span>{nippie.name}</span>

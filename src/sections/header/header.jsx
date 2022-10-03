@@ -16,7 +16,7 @@ export const Header = () => {
     return (
         <Container>
             <Texture src={headerTexture} alt="header texture" isMobile={isMobile} />
-            <HeaderLogo src={headerLogo} alt="header logo" isMobile={isMobile} />
+            <HeaderLogo src={headerLogo} alt="nippies" isMobile={isMobile} tabIndex={0} />
             <TopDivider src={divideTop} alt="nippies fur" />
         </Container>
     );

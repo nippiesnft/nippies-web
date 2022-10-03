@@ -20,10 +20,10 @@ function App() {
     <>
         <GlobalStyle />
         <Header />
-        <HiddenAnchor id="meet" href="/#">meet</HiddenAnchor>
+        <HiddenAnchor tabIndex={-1} id="meet" href="/#">meet</HiddenAnchor>
         <NavBar />
         <MeetTheNippies nippies={nippies} setNippies={setNippies}/>
-        <HiddenAnchor id="shop" href="/#">shop</HiddenAnchor>
+        <HiddenAnchor tabIndex={-1}  id="shop" href="/#">shop</HiddenAnchor>
         <BuyStuff />
         <WtfIsANippie />
         <Footer />

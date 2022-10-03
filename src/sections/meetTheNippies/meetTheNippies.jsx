@@ -39,6 +39,18 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
         setCount(pageSize);
     }
 
+    const handleSortViaKeyboard = (event) => {
+        if (event.keyCode === 13) {
+            return sortCopy === "alphabetize" ? handleAlphabetize() : handleShuffle()
+        }
+    }
+
+    const handleLoadMoreViaKeyboard = (event) => {
+        if (event.keyCode === 13) {
+            return handleLoadMore();
+        }
+    }
+
     useEffect(() => {
         window.scrollTo(0, currentScrollTop)
     }, [currentScrollTop])
@@ -49,15 +61,21 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
 
     return (
         <>
-            <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} />
-            <Sort onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}>{sortCopy}</Sort>
+            <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} tabIndex={0} />
+            <div>
+                <Sort 
+                    tabIndex={0} 
+                    onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}
+                    onKeyDown={(event) => handleSortViaKeyboard(event)}
+                >{sortCopy}</Sort>
+            </div>
             <CardGrid isMobile={isMobile}>
                 {visibleNippies.map((nippie, index) => (
                     <Card key={index} nippie={nippie} isMobile={isMobile} />
                 ))}
             </CardGrid>
             {visibleNippies.length < Nippies.length &&
-                <LoadMore onClick={handleLoadMore}>Load More...</LoadMore>
+                <LoadMore tabIndex={0} onClick={handleLoadMore} onKeyDown={handleLoadMoreViaKeyboard}>Load More...</LoadMore>
             }
         </>
     );
