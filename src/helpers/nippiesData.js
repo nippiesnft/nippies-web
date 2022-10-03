@@ -6,9 +6,9 @@ export const getNippies = (sortMethod = null) => {
     const enrichedNippies = addOffsetsToNippies(NippiesData);
 
     switch (sortMethod) {
-        case "alphabetize":
+        case "Alphabetize":
             return(handleSortByName(enrichedNippies));
-        case "shuffle":
+        case "Shuffle":
             return(handleRandomSort(enrichedNippies))
         default:
             return (enrichedNippies);

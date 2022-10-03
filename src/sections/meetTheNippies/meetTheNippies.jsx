@@ -16,7 +16,7 @@ const meetNippies = require("../../img/design/meet-nippies.png");
 export const MeetTheNippies = ({ nippies, setNippies }) => {
     const pageSize = 6;
     const [count, setCount] = useState(pageSize);
-    const [sortCopy, setSortCopy] = useState("alphabetize");
+    const [sortCopy, setSortCopy] = useState("Alphabetize");
     const [currentScrollTop, setCurrentScrollTop] = useState(0)
     const isMobile = useIsMobile();
 
@@ -25,8 +25,8 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
         setCount(count + pageSize)
     }
     const handleAlphabetize = () => {
-        setSortCopy("shuffle");
-        setNippies(getNippies("alphabetize"));
+        setSortCopy("Shuffle");
+        setNippies(getNippies("Alphabetize"));
         if (count === pageSize) {
             // memoized - wont force update if numbers match
             setCount(0);
@@ -35,14 +35,14 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     }
 
     const handleShuffle = () => {
-        setSortCopy("alphabetize");
-        setNippies(getNippies("shuffle"));
+        setSortCopy("Alphabetize");
+        setNippies(getNippies("Shuffle"));
         setCount(pageSize);
     }
 
     const handleSortViaKeyboard = (event) => {
         if (event.keyCode === 13) {
-            return sortCopy === "alphabetize" ? handleAlphabetize() : handleShuffle()
+            return sortCopy === "Alphabetize" ? handleAlphabetize() : handleShuffle()
         }
     }
 
@@ -66,7 +66,7 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
             <SortContainer>
                 <Sort 
                     tabIndex={0} 
-                    onClick={sortCopy === "alphabetize" ? handleAlphabetize : handleShuffle}
+                    onClick={sortCopy === "Alphabetize" ? handleAlphabetize : handleShuffle}
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
                 >{sortCopy}</Sort>
             </SortContainer>
