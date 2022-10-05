@@ -64,8 +64,8 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
         <>
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} tabIndex={0} />
             <SortContainer>
-                <Sort 
-                    tabIndex={0} 
+                <Sort
+                    tabIndex={0}
                     onClick={sortCopy === "Alphabetize" ? handleAlphabetize : handleShuffle}
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
                 >{sortCopy}</Sort>

@@ -20,7 +20,7 @@ export const NavBar = () => {
     }
 
     return (
-        <Container isMobile={isMobile}>
+        <Container>
             <NavLogo src={navLogo} alt="nippies logo" onClick={() => window.scrollTo(0, 0)} onKeyDown={(event) => handleScrollToTopViaKeyboard(event)} isMobile={isMobile} tabIndex={0} />
             <NavLinks isMobile={isMobile}>
                 <NavLink href="#meet" isMobile={isMobile}>Meet</NavLink>

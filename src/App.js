@@ -5,7 +5,7 @@ import { BuyStuff } from './sections/buyStuff/buyStuff';
 import { Footer } from './sections/footer/footer';
 import { WtfIsANippie } from './sections/wtfIsANippie/wtfIsANippie';
 import { NavBar } from './components/navbar/navbar';
-import { GlobalStyle, HiddenAnchor } from './globalStyles';
+import { GlobalStyle } from './globalStyles';
 import { getNippies } from './helpers/nippiesData';
 
 function App() {
@@ -20,10 +20,8 @@ function App() {
     <>
         <GlobalStyle />
         <Header />
-        <HiddenAnchor tabIndex={-1} id="meet" href="/#">meet</HiddenAnchor>
         <NavBar />
         <MeetTheNippies nippies={nippies} setNippies={setNippies}/>
-        <HiddenAnchor tabIndex={-1}  id="shop" href="/#">shop</HiddenAnchor>
         <BuyStuff />
         <WtfIsANippie />
         <Footer />

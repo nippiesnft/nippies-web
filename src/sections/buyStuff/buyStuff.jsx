@@ -24,6 +24,7 @@ export const BuyStuff = () => {
     return (
         <>
             <DivideBottom src={divideBottom} alt="nippie bottom divider" />
+            <HiddenAnchor tabIndex={-1}  id="shop" href="/#">shop</HiddenAnchor>
             <Title src={buyStuffTitle} alt="Buy Stuff" isMobile={isMobile} tabIndex={0} />
             <Texture src={buyStuffTexture} alt="texture" />
             <a rel="noopener noreferrer" target="_blank" href="https://exchange.art/series/Nippies/nfts" alt="buy nippies on exchange art">

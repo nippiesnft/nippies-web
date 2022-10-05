@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 position: relative;
-z-index: 200;
+z-index: 20;
 `
 
 export const Texture = styled.img`
@@ -10,7 +10,7 @@ width: 100%;
 background-color: #e8a8ff;
 margin-top: -10px;
 margin-bottom: -10px;
-z-index: 200;
+z-index: 20;
 max-height: ${props => props.isMobile ? '250px' : '550px'};
 `
 
@@ -23,12 +23,12 @@ bottom: 0;
 margin: auto;
 margin-top: 25px;
 max-height: ${props => props.isMobile ? '200px' : '500px'};
-z-index: 201;
+z-index: 21;
 `
 
 export const TopDivider = styled.img`
 width: 100%;
 max-height: 150px;
 position: relative;
-z-index: 200;
+z-index: 20;
 `

@@ -10,14 +10,13 @@ margin-top: -10px;
 export const Container = styled.div`
 width: 100%;
 display: flex;
-position: sticky;
+position: fixed;
 top: 0px;
 max-height: 100px;
 background-color: #a1efff;
 padding-top: 15px;
 padding-bottom: 15px;
 z-index: 10;
-margin-top: ${props => props.isMobile ? '-200px' : '-250px'};
 `;
 
 export const NavLogo = styled.img`

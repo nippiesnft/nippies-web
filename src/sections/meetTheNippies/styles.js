@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Title = styled.img`
 max-width: ${props => props.isMobile ? '200px' : '500px'};
-margin-top: ${props => props.isMobile ? '150px' : '200px'};
+margin-top: ${props => props.isMobile ? '70px' : '150px'};
 `
 
 export const CardGrid = styled.div`
