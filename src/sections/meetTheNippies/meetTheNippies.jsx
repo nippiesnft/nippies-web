@@ -65,6 +65,7 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} tabIndex={0} />
             <SortContainer>
                 <Sort
+                    isMobile={isMobile}
                     tabIndex={0}
                     onClick={sortCopy === "Alphabetize" ? handleAlphabetize : handleShuffle}
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
@@ -76,7 +77,14 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                 ))}
             </CardGrid>
             {visibleNippies.length < Nippies.length &&
-                <LoadMore tabIndex={0} onClick={handleLoadMore} onKeyDown={handleLoadMoreViaKeyboard}>Load More...</LoadMore>
+                <LoadMore
+                    isMobile={isMobile}
+                    tabIndex={0}
+                    onClick={handleLoadMore}
+                    onKeyDown={handleLoadMoreViaKeyboard}
+                >
+                    Load More...
+                </LoadMore>
             }
         </>
     );

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Title = styled.img`
 max-width: ${props => props.isMobile ? '200px' : '500px'};
-margin-top: ${props => props.isMobile ? '0px' : '100px'};
+margin-top: ${props => props.isMobile ? '10px' : '100px'};
 `
 
 export const CardGrid = styled.div`
@@ -17,7 +17,7 @@ max-width: ${props => props.isMobile ? '445px' : '800px'};
 
 export const LoadMore = styled.span`
 color: #d21731;
-font-size: 24px;
+font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
 `
@@ -29,7 +29,7 @@ margin-top: 30px;
 export const Sort
  = styled.span`
 color: #d21731;
-font-size: 24px;
+font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
 `
