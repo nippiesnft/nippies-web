@@ -8,7 +8,7 @@ border: none;
 
 export const Title = styled.img`
 max-width: ${props => props.isMobile ? '200px' : '500px'};
-margin-top: ${props => props.isMobile ? '10px' : '100px'};
+margin-top: ${props => props.isMobile ? '25px' : '100px'};
 `
 
 export const CardGrid = styled.div`
