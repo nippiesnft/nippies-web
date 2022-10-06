@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+const Button = styled.button`
+font-family: "chauncy-pro";
+background: none;
+border: none;
+`
+
 export const Title = styled.img`
 max-width: ${props => props.isMobile ? '200px' : '500px'};
 margin-top: ${props => props.isMobile ? '10px' : '100px'};
@@ -15,7 +21,9 @@ grid-template-columns: ${props => props.isMobile ? 'repeat(2, 2fr)' : 'repeat(3,
 max-width: ${props => props.isMobile ? '445px' : '800px'};
 `
 
-export const LoadMore = styled.span`
+export const LoadMore = styled(Button)`
+background: none;
+border: none;
 color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
@@ -27,7 +35,7 @@ margin-top: 30px;
 `
 
 export const Sort
- = styled.span`
+ = styled(Button)`
 color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
