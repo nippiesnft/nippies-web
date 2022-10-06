@@ -63,7 +63,7 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     return (
         <>
             <Title src={meetNippies} alt="meet the nippies" isMobile={isMobile} tabIndex={0} />
-            <SortContainer>
+            <SortContainer isMobile={isMobile}>
                 <Sort
                     isMobile={isMobile}
                     tabIndex={0}

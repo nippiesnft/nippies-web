@@ -12,7 +12,7 @@ margin-top: ${props => props.isMobile ? '35px' : '100px'};
 `
 
 export const CardGrid = styled.div`
-margin-top: 50px;
+margin-top: ${props => props.isMobile ? '25px' : '50px'};
 margin-bottom: 25px;
 margin-left: auto;
 margin-right: auto;
@@ -31,7 +31,7 @@ cursor: pointer;
 `
 
 export const SortContainer = styled.div`
-margin-top: 30px;
+margin-top:  ${props => props.isMobile ? '15px' : '30px'};;
 `
 
 export const Sort
