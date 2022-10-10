@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Title = styled.img`
 left: 50%;
 position: absolute;
-margin-top: ${props => props.isMobile ? '42%' : '22%'};
+margin-top: ${props => props.isMobile ? '44%' : '22%'};
 max-width: ${props => props.isMobile ? '200px' : '500px'};
 margin-left: ${props => props.isMobile ? '-100px' : '-250px'};
 `
