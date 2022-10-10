@@ -11,6 +11,7 @@ import {
     Creator
 } from './styles'
 const divideBottom = require("../../img/design/divide-bottom.png");
+const divideBottomLong = require("../../img/design/divide-bottom-long.png");
 const footerTexture = require("../../img/design/footer-texture.png");
 const dontFollowUs = require("../../img/design/follow-us.png");
 const twitterLogo = require("../../img/design/twitter-footer.png");
@@ -20,7 +21,7 @@ export const Footer = () => {
     const isMobile = useIsMobile();
 
     return (<>
-        <BottomDivider src={divideBottom} alt="nippies fur" />
+        <BottomDivider src={isMobile ? divideBottom : divideBottomLong} alt="nippies fur" />
         <Texture src={footerTexture} alt="nippies fur" />
         <DontFollowUs src={dontFollowUs} alt="dont follow us" isMobile={isMobile} tabIndex={0} />
         <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/nippies_"}>

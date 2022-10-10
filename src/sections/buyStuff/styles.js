@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Title = styled.img`
 left: 50%;
 position: absolute;
-margin-top: 38%;
+margin-top: ${props => props.isMobile ? '42%' : '22%'};
 max-width: ${props => props.isMobile ? '200px' : '500px'};
 margin-left: ${props => props.isMobile ? '-100px' : '-250px'};
 `
@@ -17,7 +17,7 @@ z-index: 20;
 `
 
 export const DivideBottom = styled.img`
-margin-top: 30px;
+margin-top: 50px;
 width: 100%;
 `
 
