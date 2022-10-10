@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Nippies from '../../nippiesData.json';
 import { Card } from '../../components/card/card';
 import { useIsMobile } from "../../hooks/useIsMobile";
@@ -17,11 +17,9 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     const pageSize = 6;
     const [count, setCount] = useState(pageSize);
     const [sortCopy, setSortCopy] = useState("Alphabetize");
-    const [currentScrollTop, setCurrentScrollTop] = useState(0)
     const isMobile = useIsMobile();
 
     const handleLoadMore = () => {
-        setCurrentScrollTop(document.documentElement.scrollTop)
         setCount(count + pageSize)
     }
     const handleAlphabetize = () => {
@@ -51,10 +49,6 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
             return handleLoadMore();
         }
     }
-
-    useEffect(() => {
-        window.scrollTo(0, currentScrollTop)
-    }, [currentScrollTop])
 
     if (!nippies) return null;
 
