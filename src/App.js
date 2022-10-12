@@ -1,29 +1,31 @@
-import './App.css';
-
-const divideTop = require("./img/design/divide-top.png");
-const divideBottom = require("./img/design/divide-bottom.png");
-const comingSoon = require("./img/design/comin-soon.png");
-const nuppy = require("./img/nippies/nuppy-transparent.png");
+import React, { useEffect, useState } from 'react';
+import { Header } from './sections/header/header';
+import { MeetTheNippies } from './sections/meetTheNippies/meetTheNippies';
+import { BuyStuff } from './sections/buyStuff/buyStuff';
+import { Footer } from './sections/footer/footer';
+import { WtfIsANippie } from './sections/wtfIsANippie/wtfIsANippie';
+import { NavBar } from './components/navbar/navbar';
+import { GlobalStyle } from './globalStyles';
+import { getNippies } from './helpers/nippiesData';
 
 function App() {
-  const isMobile = window?.innerWidth < 1024;
+  const [nippies, setNippies] = useState(null);
 
-  const nuppyStyles = {
-    left: isMobile ? 0 : '15%',
-    bottom: isMobile ? '15px' : '30px',
-  }
-
-  const comingSoonStyles = {
-    maxHeight: isMobile ? 150 : 275,
-  }
+  useEffect(() => {
+    // shuffle nippies on initial load
+    setNippies(getNippies("Shuffle"));
+  }, [])
 
   return (
-    <div className="app">
-      <img src={divideTop} className="app-divide-top" alt="nippies fur"/>
-      <img src={comingSoon} className="coming-soon" style={comingSoonStyles} alt="comin soon" />
-      <img src={nuppy} className="nuppy" style={nuppyStyles} alt="nuppy the nippie" />
-      <img src={divideBottom} className="app-divide-bottom" alt="nippies fur"/>
-    </div>
+    <>
+        <GlobalStyle />
+        <Header />
+        <NavBar />
+        <MeetTheNippies nippies={nippies} setNippies={setNippies}/>
+        <BuyStuff />
+        <WtfIsANippie />
+        <Footer />
+    </>
   );
 }
 
