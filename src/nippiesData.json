@@ -520,5 +520,11 @@
         "owner": "@SovanaDAO",
         "imgUrl": "/nippies/tina.png",
         "exchangeArtUrl": "https://exchange.art/single/2Gm1mssWAUdpvw3fFpjbMrf6NS3ijXvBca9xYTqBuc4f"
+    },
+    {
+        "name": "Monty",
+        "owner": "@xlopez1907",
+        "imgUrl": "/nippies/monty-2.png",
+        "exchangeArtUrl": "https://exchange.art/single/GKd9pPLEVNxvRMWXXJmG3kgB2mCQAmyBLEkdMWSMLtDa"
     }
 ]
