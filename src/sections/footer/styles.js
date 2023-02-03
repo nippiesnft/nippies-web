@@ -43,17 +43,17 @@ padding-top: 20px;
 padding-bottom: 10px;
 display: flex;
 background: #e8a8ff;
-font-size: ${props => props.isMobile ? '10px' : '14px'};
+font-size: ${props => props.isMobile ? '10px' : '18px'};
 `
 
 export const Disclaimer = styled.span`
 align-self: flex-end;
-margin-left: 10px;
+margin-left: 20px;
 `
 
 export const CreatedBy = styled.span`
 position: absolute;
-right: 10px;
+right: 20px;
 `
 
 export const Creator = styled.a`
