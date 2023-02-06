@@ -7,6 +7,11 @@ export const Container = styled.div`
 export const Image = styled.img`
     transform: ${props => props.offset ? `rotate(${props.offset}deg)` : 'rotate(0)'};
     max-width: ${window.innerWidth < 700 ? '175px' : '215px'};
+    &:hover {
+        transform: ${props => props.offset ? `rotate(${props.offset}deg) scale(1.03)` : 'rotate(0)'};
+        -webkit-transform: ${props => props.offset ? `rotate(${props.offset}deg) scale(1.03)` : 'rotate(0)'};
+        transition: transform 0.5s ease;
+    }
 `
 
 export const Details = styled.div`

@@ -31,6 +31,11 @@ left: 55%;
 position: absolute;
 margin-top: 32%;
 width: 30%;
+&:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transition: transform 0.5s ease;
+}
 `
 
 export const DigitalMerchLabel = styled.span`

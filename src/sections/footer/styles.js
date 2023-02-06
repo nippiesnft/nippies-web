@@ -28,6 +28,11 @@ left: 39%;
 max-width: ${props => props.isMobile ? '75px' : '180px'};
 margin-left: ${props => props.isMobile ? '-50px' : '-90px'};
 margin-top: ${props => props.isMobile ? '30%' : '25%'};
+&:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transition: transform 0.5s ease;
+}
 `
 
 export const NippleInstagram = styled.img`
@@ -36,6 +41,11 @@ left: 59%;
 margin-top: ${props => props.isMobile ? '30%' : '25%'};
 max-width: ${props => props.isMobile ? '75px' : '180px'};
 margin-left: ${props => props.isMobile ? '-25px' : '-90px'};
+&:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transition: transform 0.5s ease;
+}
 `
 
 export const FooterCopy = styled.div`
