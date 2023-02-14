@@ -32,7 +32,7 @@ export const Footer = () => {
         </a>
         <FooterCopy isMobile={isMobile}>
             <Disclaimer tabIndex={0}>Copyright 2023. Nippies. All Rights Reserved.</Disclaimer>
-            <CreatedBy tabIndex={0}>Created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/0xNDO">Ben</Creator>.</CreatedBy>
+            <CreatedBy tabIndex={0}>Created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/10x_ben">Ben</Creator>.</CreatedBy>
         </FooterCopy>
     </>
     );
