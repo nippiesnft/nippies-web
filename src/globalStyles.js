@@ -8,10 +8,18 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "chauncy-pro";
         background-color: #a1efff;
         scroll-behavior: smooth;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
 
     html {
         scroll-behavior: smooth;
+    }
+
+    code {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+          monospace;
     }
 `;
 
