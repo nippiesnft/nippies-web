@@ -174,6 +174,12 @@
         "exchangeArtUrl": "https://exchange.art/single/22epECUhcL7WooGSu6nendeBEpfC3DaG49FCVPAEAjtE"
     },
     {
+        "name": "Fred",
+        "owner": "@MetaPsilo",
+        "imgUrl": "/nippies/fred-2.png",
+        "exchangeArtUrl": "https://exchange.art/single/9VSCHjSvyJDo3kscUYtNPWPCC6b7WzodAwYKmJzcfqje"
+    },
+    {
         "name": "Jimmy",
         "owner": "@Mr_Cuddlez88",
         "imgUrl": "/nippies/jimmy.png",
@@ -523,8 +529,20 @@
     },
     {
         "name": "Monty",
-        "owner": "@mdstevens044",
+        "owner": "@xlopez1907",
         "imgUrl": "/nippies/monty-2.png",
         "exchangeArtUrl": "https://exchange.art/single/GKd9pPLEVNxvRMWXXJmG3kgB2mCQAmyBLEkdMWSMLtDa"
+    },
+    {
+        "name": "Sam Bankfck-Fried",
+        "owner": "@WayneNooten",
+        "imgUrl": "/nippies/sbf.png",
+        "exchangeArtUrl": "https://exchange.art/single/2PFH7yjdyBa7W3V55o8JDX4rwCSti39KUyQe22CXvTDr"
+    },
+    {
+        "name": "Dion",
+        "owner": "@cashdegods",
+        "imgUrl": "/nippies/dion.png",
+        "exchangeArtUrl": "https://exchange.art/single/FhEak85DLYbe8z48A1e7bpze9Wo5G677kM9ikJVz2mvp"
     }
 ]
