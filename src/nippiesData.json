@@ -544,5 +544,11 @@
         "owner": "@cashdegods",
         "imgUrl": "/nippies/dion.png",
         "exchangeArtUrl": "https://exchange.art/single/FhEak85DLYbe8z48A1e7bpze9Wo5G677kM9ikJVz2mvp"
+    },
+        {
+        "name": "Motley",
+        "owner": "Hot Dog",
+        "imgUrl": "/nippies/motley.png",
+        "exchangeArtUrl": "https://exchange.art/single/AffhiNsoqSxeTSoH8jisjd7AFZjwPtcuCmmRVAUgqixm"
     }
 ]
