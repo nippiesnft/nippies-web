@@ -28,7 +28,7 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
-margin-right: 10px;
+margin-left: 10px;
 `
 
 export const LoadAll = styled(Button)`
@@ -38,7 +38,7 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
-margin-left: 10px;
+margin-right: 10px;
 `
 
 export const SortContainer = styled.div`
@@ -60,27 +60,28 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
-margin-left: 20px;
+margin-left: 10px;
 `
 
 export const ExploreCTA
     = styled.a`
 color: #d21731;
-font-size: ${props => props.isMobile ? '16px' : '20px'};
+font-size: ${props => props.isMobile ? '12px' : '16px'};
 text-decoration: underline;
 cursor: pointer;
 `
 
 export const ExploreContainer = styled.div`
+font-size: ${props => props.isMobile ? '12px' : '16px'};
 margin-top: 50px;
 `
 
 export const TwitterLinkContainer = styled.div`
-font-size: ${props => props.isMobile ? '16px' : '20px'};
-margin-bottom: 10px;
+font-size: ${props => props.isMobile ? '12px' : '16px'};
+margin-top: 10px;
 `
 
 export const TwitterLink = styled.a`
-font-size: ${props => props.isMobile ? '16px' : '20px'};
+font-size: ${props => props.isMobile ? '12px' : '16px'};
 color: black;
 `

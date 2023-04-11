@@ -99,16 +99,6 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                     <Card key={index} nippie={nippie} activeArt={activeArt} />
                 ))}
             </CardGrid>
-            {visibleNippies.length < Nippies.length &&
-                <LoadMore
-                    isMobile={isMobile}
-                    tabIndex={0}
-                    onClick={handleLoadMore}
-                    onKeyDown={handleLoadMoreViaKeyboard}
-                >
-                    Load More
-                </LoadMore>
-            }
             {count < Nippies.length &&
                 <LoadAll
                     isMobile={isMobile}
@@ -119,10 +109,34 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                     Load All
                 </LoadAll>
             }
+            {visibleNippies.length < Nippies.length &&
+                <LoadMore
+                    isMobile={isMobile}
+                    tabIndex={0}
+                    onClick={handleLoadMore}
+                    onKeyDown={handleLoadMoreViaKeyboard}
+                >
+                    Load More
+                </LoadMore>
+            }
+            {activeArt === "Nippies" &&
+                <ExploreContainer>
+                    <TwitterLinkContainer isMobile={isMobile}>
+                        Nippies Artwork by {" "}
+                        <TwitterLink
+                            isMobile={isMobile}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://twitter.com/@scubasteveart">
+                            @ScubaSteveArt
+                        </TwitterLink>.
+                    </TwitterLinkContainer>
+                </ExploreContainer>
+            }
             {activeArt === "BitNips" &&
                 <ExploreContainer>
                     <TwitterLinkContainer isMobile={isMobile}>
-                        BitNip artwork by {" "}
+                        BitNip Artwork by {" "}
                         <TwitterLink
                             isMobile={isMobile}
                             rel="noopener noreferrer"
