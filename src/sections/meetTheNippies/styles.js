@@ -28,7 +28,7 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
-margin-right: 20px;
+margin-right: 10px;
 `
 
 export const LoadAll = styled(Button)`
@@ -38,7 +38,7 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
-margin-left: 20px;
+margin-left: 10px;
 `
 
 export const SortContainer = styled.div`

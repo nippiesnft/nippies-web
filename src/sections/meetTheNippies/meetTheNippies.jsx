@@ -88,6 +88,7 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
                 >{sortCopy}</Sort>
                 <SwapArtCTA
+                    isMobile={isMobile}
                     onClick={() => activeArt === "Nippies" ? setActiveArt("BitNips") : setActiveArt("Nippies")}
                 >
                     {activeArt === "Nippies" ? "Show BitNips" : "Show Nippies"}
