@@ -14,12 +14,18 @@ export const Image = styled.img`
     }
 `
 
+export const BitNipImage = styled(Image)`
+margin: 12px;
+max-width: ${window.innerWidth < 700 ? '140px' : '180px'};
+border: 6px solid black;
+`
+
 export const Details = styled.div`
     text-align: left;
     margin-left: ${props => props.isMobile ? '20px' : '40px'};
 `
 
-export const Owner = styled.a`
+export const Name = styled.a`
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -32,7 +38,7 @@ export const TwitterLogo = styled.img`
     margin-right: 5px;
 `
 
-export const TwitterHandle = styled.a`
+export const CTALink = styled.a`
     color: black;
     font-size: 18px;
 `

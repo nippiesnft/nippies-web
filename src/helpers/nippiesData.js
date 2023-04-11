@@ -1,9 +1,10 @@
 import NippiesData from '../nippiesData.json';
+import BitNipData from '../bitNipData.json';
 import { addOffsetsToNippies } from './randomNumberGenerator';
 import { shuffleArray } from './shuffle';
 
-export const getNippies = (sortMethod = null) => {
-    const enrichedNippies = addOffsetsToNippies(NippiesData);
+export const getNippies = (sortMethod = null, activeArt = "Nippies") => {
+    const enrichedNippies = activeArt === "Nippies" ? addOffsetsToNippies(NippiesData) : BitNipData;
 
     switch (sortMethod) {
         case "Alphabetize":

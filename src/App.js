@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     // shuffle nippies on initial load
-    setNippies(getNippies("Shuffle"));
+    setNippies(getNippies("Shuffle", "Nippies"));
   }, [])
 
   return (

@@ -529,12 +529,12 @@
     },
     {
         "name": "Monty",
-        "owner": "@xlopez1907",
+        "owner": "@justin_oogy",
         "imgUrl": "/nippies/monty-2.png",
         "exchangeArtUrl": "https://exchange.art/single/GKd9pPLEVNxvRMWXXJmG3kgB2mCQAmyBLEkdMWSMLtDa"
     },
     {
-        "name": "Sam Bankfck-Fried",
+        "name": "Sam Bankfck",
         "owner": "@WayneNooten",
         "imgUrl": "/nippies/sbf.png",
         "exchangeArtUrl": "https://exchange.art/single/2PFH7yjdyBa7W3V55o8JDX4rwCSti39KUyQe22CXvTDr"
@@ -547,7 +547,7 @@
     },
         {
         "name": "Motley",
-        "owner": "Hot Dog",
+        "owner": "@haunteddong",
         "imgUrl": "/nippies/motley.png",
         "exchangeArtUrl": "https://exchange.art/single/AffhiNsoqSxeTSoH8jisjd7AFZjwPtcuCmmRVAUgqixm"
     }

@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Randall",
+        "imgUrl": "/bitNips/randall.png",
+        "inscriptionNumber": 921858,
+        "inscriptionUrl": "https://ordinals.com/inscription/d17d8d902fc29e5bf058fbeb0dc33b2846cbc3469cdd7a2b61461666c86d8389i0"
+    },
+    {
+        "name": "Eugene",
+        "imgUrl": "/bitNips/Eugene.png",
+        "inscriptionNumber": 921889,
+        "inscriptionUrl": "https://ordinals.com/inscription/26aa7467e70135bdc5d41b7538a5ad9275e8b1a508a3247459f9a4aee586a6d9i0"
+    },
+    {
+        "name": "Peter",
+        "imgUrl": "/bitNips/Peter.png",
+        "inscriptionNumber": 921868,
+        "inscriptionUrl": "https://ordinals.com/inscription/b7184c4e015e0125b78b7bf92eb7369ea5cdb3414299e2dd4bd6d2ebbe40e9a3i0"
+    },
+    {
+        "name": "Luis",
+        "imgUrl": "/bitNips/Luis.png",
+        "inscriptionNumber": 921814,
+        "inscriptionUrl": "https://ordinals.com/inscription/89d48f757d5b849af33bacd7aa68eb4b3c561b1a9954591fa2917384dd4ca823i0"
+    },
+    {
+        "name": "Donny Dust",
+        "imgUrl": "/bitNips/Donny_Dust.png",
+        "inscriptionNumber": 921874,
+        "inscriptionUrl": "https://ordinals.com/inscription/0770363d59b78ea42180d45a68e2bd79c4013c3dcb76e1db906ede45ccd540aei0"
+    },
+    {
+        "name": "Sven",
+        "imgUrl": "/bitNips/Sven.png",
+        "inscriptionNumber": 921838,
+        "inscriptionUrl": "https://ordinals.com/inscription/782398497dfe56564939545b3948530ccde91f0f79533e16daa592553f940f4di0"
+    },
+    {
+        "name": "Haley",
+        "imgUrl": "/bitNips/Haley.png",
+        "inscriptionNumber": 921857,
+        "inscriptionUrl": "https://ordinals.com/inscription/849afc36639adf0f67a60af5088dd03f366204be5d5629c217d2d6166aaa7e89i0"
+    },
+    {
+        "name": "Larry",
+        "imgUrl": "/bitNips/Larry.png",
+        "inscriptionNumber": 921899,
+        "inscriptionUrl": "https://ordinals.com/inscription/12201335d6e8e96b0934681fc7660556be9cd2fc748f363574bff5c318bf50f7i0"
+    },
+    {
+        "name": "Deena",
+        "imgUrl": "/bitNips/Deena.png",
+        "inscriptionNumber": 921879,
+        "inscriptionUrl": "https://ordinals.com/inscription/05a723b4ff7c9acd3f0735dced8f0e4b185b49f2c0bc93711c0b8375f5432fb8i0"
+    },
+    {
+        "name": "B.O.T.N.",
+        "imgUrl": "/bitNips/B.O.T.N..png",
+        "inscriptionNumber": 921885,
+        "inscriptionUrl": "https://ordinals.com/inscription/566e03c3adcaaf7e5e9070bd0e79c0074af5e82a055c83d3a0bb0631c2e5fad3i0"
+    },
+    {
+        "name": "G.I. NIPS",
+        "imgUrl": "/bitNips/G.I._Nips.png",
+        "inscriptionNumber": 921859,
+        "inscriptionUrl": "https://ordinals.com/inscription/badeb73a97a4fdf1cbd46f206aa8fb534167c923a1abbdca4c023aa801ed508bi0"
+    },
+    {
+        "name": "Doug",
+        "imgUrl": "/bitNips/Doug.png",
+        "inscriptionNumber": 921815,
+        "inscriptionUrl": "https://ordinals.com/inscription/b2e456d8f78dc3ca8f8c531fb8102c8b3d1954a6f46884756b44ec5aafee8226i0"
+    },
+    {
+        "name": "Murray",
+        "imgUrl": "/bitNips/Murray.png",
+        "inscriptionNumber": 921839,
+        "inscriptionUrl": "https://ordinals.com/inscription/c31920b2e7b704cb1c49722e496b8fc804d0374b40e00c2e27e2c7d7502a794di0"
+    },
+    {
+        "name": "Maggie",
+        "imgUrl": "/bitNips/Maggie.png",
+        "inscriptionNumber": 921883,
+        "inscriptionUrl": "https://ordinals.com/inscription/e807b5ed4e5efbc9bbbc6d1ae6eaad9a04c324be7f580d830c04b4993a748ccfi0"
+    },
+    {
+        "name": "Slater",
+        "imgUrl": "/bitNips/Slater.png",
+        "inscriptionNumber": 921829,
+        "inscriptionUrl": "https://ordinals.com/inscription/e90b5181616e4ed20fece50e70b3e65b8df08bb1c9afc8e6c4592994e5f90142i0"
+    },
+    {
+        "name": "Mr. Nipson",
+        "imgUrl": "/bitNips/Mr._Nipson.png",
+        "inscriptionNumber": 921818,
+        "inscriptionUrl": "https://ordinals.com/inscription/bdded893667922f83fdd008baa32854df4eba9d51ceba2fcf93dbf514659f52ei0"
+    },
+    {
+        "name": "JB MickDuppie",
+        "imgUrl": "/bitNips/JB_Mickduppie.png",
+        "inscriptionNumber": 921900,
+        "inscriptionUrl": "https://ordinals.com/inscription/d10f3ed591de82c6a298c0a366736acff0cbf08aad38fae9081964d692ae7ff7i0"
+    },
+    {
+        "name": "Samson",
+        "imgUrl": "/bitNips/Samson.png",
+        "inscriptionNumber": 921863,
+        "inscriptionUrl": "https://ordinals.com/inscription/a91eb487b96517b275019a4fd457509d8c7252c73c820518282d62fca71c8898i0"
+    },
+    {
+        "name": "Monty",
+        "imgUrl": "/bitNips/Monty.png",
+        "inscriptionNumber": 921896,
+        "inscriptionUrl": "https://ordinals.com/inscription/1b5d69b4302accef8a5e10862854f3f699b5171847df2e7ee684d7a6b69963efi0"
+    },
+    {
+        "name": "Pete",
+        "imgUrl": "/bitNips/Pete.png",
+        "inscriptionNumber": 921842,
+        "inscriptionUrl": "https://ordinals.com/inscription/103c8bccb97c918dad3c1908064699cc2b4d1a74e5b3093c11b9be0a6bbaa058i0"
+    },
+    {
+        "name": "Andy",
+        "imgUrl": "/bitNips/Andy.png",
+        "inscriptionNumber": 921845,
+        "inscriptionUrl": "https://ordinals.com/inscription/a4e4cd095da449c24ab6345794bde41b715a34153de782dfa315c4f33516b660i0"
+    },
+    {
+        "name": "Joey Chestnip",
+        "imgUrl": "/bitNips/Joey_Chestnip.png",
+        "inscriptionNumber": 921823,
+        "inscriptionUrl": "https://ordinals.com/inscription/03d796f56e15df38a40d243cf3c5e6ba068fbb7189f50ad34cf4d785529f8f38i0"
+    },
+    {
+        "name": "Not a Duppie",
+        "imgUrl": "/bitNips/Not_A_Duppie.png",
+        "inscriptionNumber": 921882,
+        "inscriptionUrl": "https://ordinals.com/inscription/51d0be79ab667386698eaedf42abe64099aa2a76086bd9c58874b63bfc8a80cei0"
+    },
+    {
+        "name": "Nuppy",
+        "imgUrl": "/bitNips/Nuppy.png",
+        "inscriptionNumber": 921828,
+        "inscriptionUrl": "https://ordinals.com/inscription/96bbeb8a9b13009fd59959f90c08688ba4d1fbf569da8e6deabb604a447cdb40i0"
+    },
+    {
+        "name": "Bruno",
+        "imgUrl": "/bitNips/Bruno.png",
+        "inscriptionNumber": 921855,
+        "inscriptionUrl": "https://ordinals.com/inscription/87975e70e4ed6674597d87e721685f84db9b0743f9283f8e706a191ce686a682i0"
+    },
+    {
+        "name": "Brad",
+        "imgUrl": "/bitNips/Brad.png",
+        "inscriptionNumber": 921880,
+        "inscriptionUrl": "https://ordinals.com/inscription/d3583388fc5f24a7c54b776e18dc3441cfbca6d3b30444b68f244fe7042950b9i0"
+    },
+    {
+        "name": "Troy",
+        "imgUrl": "/bitNips/Troy.png",
+        "inscriptionNumber": 921870,
+        "inscriptionUrl": "https://ordinals.com/inscription/9637fc8212b3fadf211c9ed691f1f67e2af39eae5b713bdf9add5248f7fcb9a8i0"
+    },
+    {
+        "name": "Eric",
+        "imgUrl": "/bitNips/Eric.png",
+        "inscriptionNumber": 921830,
+        "inscriptionUrl": "https://ordinals.com/inscription/4420459d592e2e70aebd63305954533fd46e7a37d197f9f164cf50d15af82046i0"
+    },
+    {
+        "name": "Fred",
+        "imgUrl": "/bitNips/Fred.png",
+        "inscriptionNumber": 921893,
+        "inscriptionUrl": "https://ordinals.com/inscription/294a8881e18d05547396419c829a2b48c3140d717bdfcb387144038d9aaa10e3i0"
+    },
+    {
+        "name": "Fred",
+        "imgUrl": "/bitNips/Fred_2.png",
+        "inscriptionNumber": 921841,
+        "inscriptionUrl": "https://ordinals.com/inscription/744839261e13a7935d4c56eef5c58ac55319bf4def13f56e482d526a543d0a58i0"
+    },
+    {
+        "name": "Jimmy",
+        "imgUrl": "/bitNips/Jimmy.png",
+        "inscriptionNumber": 921887,
+        "inscriptionUrl": "https://ordinals.com/inscription/961221146e3dc0b10548382db7b6e976cc28e17e2598628c51fb748e951109d7i0"
+    },
+    {
+        "name": "Chad",
+        "imgUrl": "/bitNips/Chad.png",
+        "inscriptionNumber": 921875,
+        "inscriptionUrl": "https://ordinals.com/inscription/c6fa01079426ba4e2e4dd092a6a5ec708a43f36058781812e29cb46238306aafi0"
+    },
+    {
+        "name": "Ralph",
+        "imgUrl": "/bitNips/Ralph.png",
+        "inscriptionNumber": 921804,
+        "inscriptionUrl": "https://ordinals.com/inscription/30c0723bd6528d9e9b4ed39c102411c1af3566e703b316259d76e4b373298e02i0"
+    },
+    {
+        "name": "Carl Reefer",
+        "imgUrl": "/bitNips/Carl_Reefer.png",
+        "inscriptionNumber": 921825,
+        "inscriptionUrl": "https://ordinals.com/inscription/34ae6fb11337250f95ba10587ace2d88ca64f8283823218af9ad8456578c7e3ci0"
+    },
+    {
+        "name": "Shane",
+        "imgUrl": "/bitNips/Shane.png",
+        "inscriptionNumber": 921813,
+        "inscriptionUrl": "https://ordinals.com/inscription/f7fa0d07837355afe4cd55720bb7f4f10694ec1cddcc604ce172b59b8cd7df22i0"
+    },
+    {
+        "name": "Moishe",
+        "imgUrl": "/bitNips/Moishe.png",
+        "inscriptionNumber": 921843,
+        "inscriptionUrl": "https://ordinals.com/inscription/3b208e879b5e3fa59e8f687abf2875527f99661df5271100704a747c939b8f5ai0"
+    },
+    {
+        "name": "Buddy",
+        "imgUrl": "/bitNips/Buddy.png",
+        "inscriptionNumber": 921833,
+        "inscriptionUrl": "https://ordinals.com/inscription/a6637af1bc8e3735a3b6751685509c4f68fb39c3872edbbb722b060fcdc83749i0"
+    },
+    {
+        "name": "Eddie",
+        "imgUrl": "/bitNips/Eddie.png",
+        "inscriptionNumber": 921819,
+        "inscriptionUrl": "https://ordinals.com/inscription/6c85c4209314012a58a6ff9c70f75edff843afe889c87f96486a8aefa4f1bf35i0"
+    },
+    {
+        "name": "Bob",
+        "imgUrl": "/bitNips/Bob.png",
+        "inscriptionNumber": 921865,
+        "inscriptionUrl": "https://ordinals.com/inscription/3cb3ba5d5f991146b988fa1213a2adf63cc1b96d5c7aecb12bbedfef66d3299di0"
+    },
+    {
+        "name": "Nip Offerman",
+        "imgUrl": "/bitNips/Nip_Offerman.png",
+        "inscriptionNumber": 921827,
+        "inscriptionUrl": "https://ordinals.com/inscription/d5eb969f281a5daff866e1afb7fd5eb0bb9cbaec1eb55c11ed8e2ffbfe58753fi0"
+    },
+    {
+        "name": "Clancy",
+        "imgUrl": "/bitNips/Clancy.png",
+        "inscriptionNumber": 921878, 
+        "inscriptionUrl": "https://ordinals.com/inscription/0aee68a1e77f85f2822ce1af50f31dd1ab39050cf3dd0c9532cf43c57c7d1cb8i0"
+    },
+    {
+        "name": "Reggie",
+        "imgUrl": "/bitNips/Reggie.png",
+        "inscriptionNumber": 921835,
+        "inscriptionUrl": "https://ordinals.com/inscription/6bdb4d55f4c36bd26e35b7dcf22516b23c34e098d18fc0c2df904791f3924f4ai0"
+    },
+    {
+        "name": "Notorious Nip",
+        "imgUrl": "/bitNips/Notorious_Nip.png",
+        "inscriptionNumber": 921886,
+        "inscriptionUrl": "https://ordinals.com/inscription/9b73a5d5874c9e5ebfdf772991e7a82f8e9f05fb2cd0da4272ce7d983d6906d6i0"
+    },
+    {
+        "name": "Mike",
+        "imgUrl": "/bitNips/Mike.png",
+        "inscriptionNumber": 921824,
+        "inscriptionUrl": "https://ordinals.com/inscription/8764636413f0cd6cda855fc0971f5b1394b43ae33d20f09d7076b3f4d69d6c3ci0"
+    },
+    {
+        "name": "Jack",
+        "imgUrl": "/bitNips/Jack.png",
+        "inscriptionNumber": 921867,
+        "inscriptionUrl": "https://ordinals.com/inscription/1df0414b1807697fbbb4d0c33d93a7cddf5aab0a253fe44a92f5eac8eb546fa1i0"
+    },
+    {
+        "name": "Cyrus",
+        "imgUrl": "/bitNips/Cyrus.png",
+        "inscriptionNumber": 921831,
+        "inscriptionUrl": "https://ordinals.com/inscription/d62d4f81abd46d0894a6dd3d8428173fa74a37113660815f3bd6621f3bc25147i0"
+    },
+    {
+        "name": "Roger",
+        "imgUrl": "/bitNips/Roger.png",
+        "inscriptionNumber": 921832,
+        "inscriptionUrl": "https://ordinals.com/inscription/7d05119518187c3c2f7c4bbfb6389170812e2ca94f8e76d5ff49f3ce2909af47i0"
+    },
+    {
+        "name": "Konoa Kai",
+        "imgUrl": "/bitNips/Konoa_Kai.png",
+        "inscriptionNumber": 921881,
+        "inscriptionUrl": "https://ordinals.com/inscription/d6d1425530c17c82d8d8c6f90ee1718a9fa7dfd8515c8fc594d53ccee69c9fc5i0"
+    },
+    {
+        "name": "Barbara",
+        "imgUrl": "/bitNips/Barbara.png",
+        "inscriptionNumber": 921894,
+        "inscriptionUrl": "https://ordinals.com/inscription/57d0c8104b0baf543bf32d725f2995ad146c87cd608ac86464f1b44682c72beai0"
+    },
+    {
+        "name": "Jan",
+        "imgUrl": "/bitNips/Jan.png",
+        "inscriptionNumber": 921808,
+        "inscriptionUrl": "https://ordinals.com/inscription/bed0ef115d290e2b616627c04ca782d14c2213dfe303c06024cd48e61c91910ei0"
+    },
+    {
+        "name": "Minkus",
+        "imgUrl": "/bitNips/Minkus.png",
+        "inscriptionNumber": 921846,
+        "inscriptionUrl": "https://ordinals.com/inscription/1bb58d71288c6c26689b0e04e2a0d66c3d501a0e5ccc3a6a56f1583f9705cb60i0"
+    },
+    {
+        "name": "Gunter",
+        "imgUrl": "/bitNips/Gunter.png",
+        "inscriptionNumber": 921862,
+        "inscriptionUrl": "https://ordinals.com/inscription/b2b4799023750dbfb3ca66663a628d3ea86d24c53bfeddb6d31b422c73a61594i0"
+    },
+    {
+        "name": "Nipley Hustle",
+        "imgUrl": "/bitNips/Nipley_Hustle.png",
+        "inscriptionNumber": 921864,
+        "inscriptionUrl": "https://ordinals.com/inscription/490d1c66cf79fe35fc5d09b25b7cbee1f82d040a43b57b05d97accc10d61b898i0"
+    },
+    {
+        "name": "Frank",
+        "imgUrl": "/bitNips/Frank.png",
+        "inscriptionNumber": 921888,
+        "inscriptionUrl": "https://ordinals.com/inscription/8d66554c9218cc7125684a19cac8a7931d490016b04cbcf2a9f9575d764a7ad7i0"
+    },
+    {
+        "name": "Elf",
+        "imgUrl": "/bitNips/Elf.png",
+        "inscriptionNumber": 921877,
+        "inscriptionUrl": "https://ordinals.com/inscription/324c312a7f5130e4ce1ab970a2fd8bb471e972c614932dff884f3ae2ac5962b7i0"
+    },
+    {
+        "name": "Percy",
+        "imgUrl": "/bitNips/Percy.png",
+        "inscriptionNumber": 921805,
+        "inscriptionUrl": "https://ordinals.com/inscription/f43e51d6b902b2ee821c15285ca3826d8de0451b911874789633588fe6f9cc07i0"
+    },
+    {
+        "name": "Tommy",
+        "imgUrl": "/bitNips/Tommy.png",
+        "inscriptionNumber": 921895,
+        "inscriptionUrl": "https://ordinals.com/inscription/016c6609bc368944c04add1d1d6ec652976f717246fc2b5be83222b4ee73cfebi0"
+    },
+    {
+        "name": "Big Nip",
+        "imgUrl": "/bitNips/Big_Nip.png",
+        "inscriptionNumber": 921817,
+        "inscriptionUrl": "https://ordinals.com/inscription/6f97b5a26163298614d6c67ecf253abb1aa5bd37d5686e2cf280c58bd2e36b28i0"
+    },
+    {
+        "name": "Bridgette",
+        "imgUrl": "/bitNips/Bridgette.png",
+        "inscriptionNumber": 921884,
+        "inscriptionUrl": "https://ordinals.com/inscription/8b619a7423023e2d5262f24a7f8f1233bc3510ea2c737e65b62be9c13d3233d2i0"
+    },
+    {
+        "name": "Nate",
+        "imgUrl": "/bitNips/Nate.png",
+        "inscriptionNumber": 921853,
+        "inscriptionUrl": "https://ordinals.com/inscription/dd5a38e6c4ede3c6257c61b87ff9d10e0bedfe0781f074e6c0e735521634e27ei0"
+    },
+    {
+        "name": "Skippie",
+        "imgUrl": "/bitNips/Skippie.png",
+        "inscriptionNumber": 921822,
+        "inscriptionUrl": "https://ordinals.com/inscription/2bf699d7652e0a8e18191cbf40a0b48e4fad933f98df6c8b537f377aa8e17538i0"
+    },
+    {
+        "name": "Evan",
+        "imgUrl": "/bitNips/Evan.png",
+        "inscriptionNumber": 921856,
+        "inscriptionUrl": "https://ordinals.com/inscription/1b4b3cb56adefae59397c876242d858860de21a89c409bdd446d8cef1969da87i0"
+    },
+    {
+        "name": "Salvador",
+        "imgUrl": "/bitNips/Salvador.png",
+        "inscriptionNumber": 921852,
+        "inscriptionUrl": "https://ordinals.com/inscription/bbc7ba1682ee94d0f338ca4e32964bfee911b26af14385275453e6adc850a576i0"
+    },
+    {
+        "name": "Armin Hammer",
+        "imgUrl": "/bitNips/Armin_Hammer.png",
+        "inscriptionNumber": 921876,
+        "inscriptionUrl": "https://ordinals.com/inscription/a5387fa2a44eade46e5b5f857801f3058f7dcf3f479ae4aa82619bd623a299b1i0"
+    },
+    {
+        "name": "Dingus",
+        "imgUrl": "/bitNips/Dingus.png",
+        "inscriptionNumber": 921866,
+        "inscriptionUrl": "https://ordinals.com/inscription/6999cf5a07872aeef6f0fa13a8e3ec6fa0293628def21a16df526ce29ba21fa1i0"
+    },
+    {
+        "name": "Christian",
+        "imgUrl": "/bitNips/Christian.png",
+        "inscriptionNumber": 921892,
+        "inscriptionUrl": "https://ordinals.com/inscription/1025eb08c795e5bfeee28bff2c160a19e0c8c7c6879371605f11dd22558ff4e2i0"
+    },
+    {
+        "name": "Lucious",
+        "imgUrl": "/bitNips/Lucious.png",
+        "inscriptionNumber": 921901,
+        "inscriptionUrl": "https://ordinals.com/inscription/61d93c4fe6870a554333803a630716cc6a44f6b3bef920a666c693dbe8ce12f8i0"
+    },
+    {
+        "name": "Phillip",
+        "imgUrl": "/bitNips/Phillip.png",
+        "inscriptionNumber": 921871,
+        "inscriptionUrl": "https://ordinals.com/inscription/0f88ceea17d4260750dfac596b92932295620949d79c38a9c65980bdeb8acea8i0"
+    },
+    {
+        "name": "Jennifer",
+        "imgUrl": "/bitNips/Jennifer.png",
+        "inscriptionNumber": 921902,
+        "inscriptionUrl": "https://ordinals.com/inscription/474450fce32274be960bb5985238826404e8e95c29d8f66c832aa849d94decf8i0"
+    },
+    {
+        "name": "Lt. Vince",
+        "imgUrl": "/bitNips/Lt._Vince.png",
+        "inscriptionNumber": 921872,
+        "inscriptionUrl": "https://ordinals.com/inscription/2baae67adde9601c55ea86b664fd6a117b99d8a88209ade95f89ea1e51e557aci0"
+    },
+    {
+        "name": "Brian",
+        "imgUrl": "/bitNips/Brian.png",
+        "inscriptionNumber": 921811,
+        "inscriptionUrl": "https://ordinals.com/inscription/b85f324da079cf9842040a2432e42a672837bc72d43f6774fb05ba3002514418i0"
+    },
+    {
+        "name": "Eduardo",
+        "imgUrl": "/bitNips/Eduardo.png",
+        "inscriptionNumber": 921848,
+        "inscriptionUrl": "https://ordinals.com/inscription/0cce454cd77f06c1216f1452b325f3256a3c5d13b6d5825a3a6f608981c42e69i0"
+    },
+    {
+        "name": "Martha",
+        "imgUrl": "/bitNips/Martha.png",
+        "inscriptionNumber": 921820,
+        "inscriptionUrl": "https://ordinals.com/inscription/f6ae2ea780842bbf26379e5f3c61c7c041f047e88417a26370605c65e9ab6637i0"
+    },
+    {
+        "name": "Henry",
+        "imgUrl": "/bitNips/Henry.png",
+        "inscriptionNumber": 921826,
+        "inscriptionUrl": "https://ordinals.com/inscription/676535f091abf1a782045765316bb07270db81f38caa5f021a4e2294d81c8a3di0"
+    },
+    {
+        "name": "Nevil",
+        "imgUrl": "/bitNips/Nevil.png",
+        "inscriptionNumber": 921809,
+        "inscriptionUrl": "https://ordinals.com/inscription/584a3c6293cc9df7481877e3db29777b22a9fe5ee7c3b285a5d42ebe62c87212i0"
+    },
+    {
+        "name": "Al",
+        "imgUrl": "/bitNips/Al.png",
+        "inscriptionNumber": 921810,
+        "inscriptionUrl": "https://ordinals.com/inscription/597130484b3086f6ca7f83305bf3ca52647540409f3235b67fa0c3aa953c0313i0"
+    },
+    {
+        "name": "Bill",
+        "imgUrl": "/bitNips/Bill.png",
+        "inscriptionNumber": 921869,
+        "inscriptionUrl": "https://ordinals.com/inscription/3d088414159662da2d0004474d55b66e0c028e3c3d60329c41929e090743a6a5i0"
+    },
+    {
+        "name": "Candice",
+        "imgUrl": "/bitNips/Candice.png",
+        "inscriptionNumber": 921903,
+        "inscriptionUrl": "https://ordinals.com/inscription/11af0e5c26c4f1ebcdcd6c8aeac57ec9da1aa82abc702a06087a86fe201d41fbi0"
+    },
+    {
+        "name": "Gary",
+        "imgUrl": "/bitNips/Gary.png",
+        "inscriptionNumber": 921849,
+        "inscriptionUrl": "https://ordinals.com/inscription/934bfb9e003b9e23884a9f43171bd1cbe9fdc5f878e420bfea9c0a0c679b126fi0"
+    },
+    {
+        "name": "Sam",
+        "imgUrl": "/bitNips/Sam.png",
+        "inscriptionNumber": 921837,
+        "inscriptionUrl": "https://ordinals.com/inscription/cf14aac601390bf00b557c1021e881552423420d5e805f0db165bf330242bf4ci0"
+    },
+    {
+        "name": "Hershel",
+        "imgUrl": "/bitNips/Hershel.png",
+        "inscriptionNumber": 921847,
+        "inscriptionUrl": "https://ordinals.com/inscription/9e19ea0e7890369532c6625964a0506a011c91635546516955a0a5723c268764i0"
+    },
+    {
+        "name": "Jonathan",
+        "imgUrl": "/bitNips/Jonathan.png",
+        "inscriptionNumber": 921821,
+        "inscriptionUrl": "https://ordinals.com/inscription/3de25fe964215dd4056b37be0a3b53c350b23c65aca0664c4c75ab489754eb37i0"
+    },
+    {
+        "name": "Harold",
+        "imgUrl": "/bitNips/Harold.png",
+        "inscriptionNumber": 921840,
+        "inscriptionUrl": "https://ordinals.com/inscription/d2a789eb8a519b93501e9186a13231a1722b7fa14b8ee0b78c4b9b86e09b6552i0"
+    },
+    {
+        "name": "Herardo",
+        "imgUrl": "/bitNips/Herardo.png",
+        "inscriptionNumber": 921836,
+        "inscriptionUrl": "https://ordinals.com/inscription/b9c0edb2aa88ba4cf9b0fcc6d2b807f401b90d39d386a09fcb718a46e531614ci0"
+    },
+    {
+        "name": "Lynn",
+        "imgUrl": "/bitNips/Lynn.png",
+        "inscriptionNumber": 921890,
+        "inscriptionUrl": "https://ordinals.com/inscription/e0e8ae480501375f41b49663acc5db6af053639de85ed814ef8f30bc304425dci0"
+    },
+    {
+        "name": "Areola Grande",
+        "imgUrl": "/bitNips/Areola_Grande.png",
+        "inscriptionNumber": 921834,
+        "inscriptionUrl": "https://ordinals.com/inscription/4370ab804dc3aa16073729868a1e0e67b9772437e86095b6efcd19980b736349i0"
+    },
+    {
+        "name": "Randy",
+        "imgUrl": "/bitNips/Randy.png",
+        "inscriptionNumber": 921844,
+        "inscriptionUrl": "https://ordinals.com/inscription/744c232244baa65d7c44e32714e7cabc41bbf8e3c2aefd91131a965beb11835di0"
+    },
+    {
+        "name": "Tina",
+        "imgUrl": "/bitNips/Tina.png",
+        "inscriptionNumber": 921854,
+        "inscriptionUrl": "https://ordinals.com/inscription/1aef33181d91bdff38ac9c141b22f7d96390ec4c388a6adf2906a1683a1a7281i0"
+    },
+    {
+        "name": "Monty",
+        "imgUrl": "/bitNips/Monty_2.png",
+        "inscriptionNumber": 921873,
+        "inscriptionUrl": "https://ordinals.com/inscription/f191b8baec834a93cde04cb9f5c94610f9b44e1ab00bf538266b4174fbfd9fadi0"
+    },
+    {
+        "name": "Sam Bankfck",
+        "imgUrl": "/bitNips/Sam_Bankfck-Fried.png",
+        "inscriptionNumber": 921806,
+        "inscriptionUrl": "https://ordinals.com/inscription/b56d1d7fbf9337e16f82dd45634daf881177a4c9f4a652845c2b0cc5dbf92408i0"
+    },
+    {
+        "name": "Dion",
+        "imgUrl": "/bitNips/Dion.png",
+        "inscriptionNumber": 921816,
+        "inscriptionUrl": "https://ordinals.com/inscription/cf43909613e9ae97367593b46cf34bb9d7039c08c42f28c347c1a7824835c226i0"
+    },
+    {
+        "name": "Dancing...",
+        "imgUrl": "/bitNips/Dancing_Through_The_Bear.png",
+        "inscriptionNumber": 921860,
+        "inscriptionUrl": "https://ordinals.com/inscription/73d6ac2ad73ed8f7ff799d2a0735275a6f676c6cca33994f205f9a7bf19dcd8ci0"
+    },
+    {
+        "name": "Join My...",
+        "imgUrl": "/bitNips/Join_My_Group_Chat.png",
+        "inscriptionNumber": 921891,
+        "inscriptionUrl": "https://ordinals.com/inscription/868745c05689a55f7c18fb3b8a42d433fc1bba6a0583aa07e3df54152b3e25ddi0"
+    },
+    {
+        "name": "Little Tony",
+        "imgUrl": "/bitNips/Little_Tony.png",
+        "inscriptionNumber": 921807,
+        "inscriptionUrl": "https://ordinals.com/inscription/d28497734159194176f4f0f9cfbccfda06e7dfda593472e552223e25bd7c410ci0"
+    },
+    {
+        "name": "Mickey De...",
+        "imgUrl": "/bitNips/Mickey_DeNippie.png",
+        "inscriptionNumber": 921898,
+        "inscriptionUrl": "https://ordinals.com/inscription/69c84bbaf28145a271d50d720730ac1b473cf4e7bf9de515bfed50acc4ac4df7i0"
+    },
+    {
+        "name": "Octavio",
+        "imgUrl": "/bitNips/Octavio.png",
+        "inscriptionNumber": 921850,
+        "inscriptionUrl": "https://ordinals.com/inscription/a8aafc116517104c8825b28574a896a38fa659ee5cd695cd6f7c89dfa16f2671i0"
+    },
+    {
+        "name": "O'doyle",
+        "imgUrl": "/bitNips/O'doyle.png",
+        "inscriptionNumber": 921897,
+        "inscriptionUrl": "https://ordinals.com/inscription/be4328e3d6e08309563e5b27e35147d13a894feea17ae63bb631772dbcca85f2i0"
+    },
+    {
+        "name": "Rodriguez",
+        "imgUrl": "/bitNips/Rodriguez.png",
+        "inscriptionNumber": 921851,
+        "inscriptionUrl": "https://ordinals.com/inscription/94eeaff4cf5a8df8e8b9dbcc9fb61f6183684cf0425ecb5eceb11aebcc1fe072i0"
+    },
+    {
+        "name": "Vlad",
+        "imgUrl": "/bitNips/Vlad.png",
+        "inscriptionNumber": 921861,
+        "inscriptionUrl": "https://ordinals.com/inscription/b86ee544e74d9da55a51627457d0951fdac1e1e21019af0ac4d3b66395bea090i0"
+    },
+    {
+        "name": "Scuba",
+        "imgUrl": "/bitNips/Scuba.png",
+        "inscriptionNumber": 921812,
+        "inscriptionUrl": "https://ordinals.com/inscription/b9babdaf5942d7306272da9c9040c7d7acf6d0991cfdd63ae62030f64db79b20i0"
+    }
+]

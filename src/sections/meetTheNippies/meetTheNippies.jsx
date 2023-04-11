@@ -1,13 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Nippies from '../../nippiesData.json';
 import { Card } from '../../components/card/card';
 import { useIsMobile } from "../../hooks/useIsMobile";
 import {
     Title,
     CardGrid,
+    LoadAll,
     LoadMore,
+    ExploreCTA,
+    ExploreContainer,
     Sort,
-    SortContainer
+    SortContainer,
+    SwapArtCTA,
+    TwitterLink,
+    TwitterLinkContainer,
 } from './styles';
 import { getNippies } from '../../helpers/nippiesData';
 
@@ -15,6 +21,7 @@ const meetNippies = require("../../img/design/meet-nippies.png");
 
 export const MeetTheNippies = ({ nippies, setNippies }) => {
     const pageSize = 6;
+    const [activeArt, setActiveArt] = useState("Nippies");
     const [count, setCount] = useState(pageSize);
     const [sortCopy, setSortCopy] = useState("Alphabetize");
     const isMobile = useIsMobile();
@@ -22,20 +29,25 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
     const handleLoadMore = () => {
         setCount(count + pageSize)
     }
+
+    const handleLoadAll = () => {
+        setCount(nippies.length)
+    }
+
     const handleAlphabetize = () => {
         setSortCopy("Shuffle");
-        setNippies(getNippies("Alphabetize"));
+        setNippies(getNippies("Alphabetize", activeArt));
         if (count === pageSize) {
             // memoized - wont force update if numbers match
             setCount(0);
         }
-        setCount(pageSize);
+        setCount(count || pageSize);
     }
 
     const handleShuffle = () => {
         setSortCopy("Alphabetize");
-        setNippies(getNippies("Shuffle"));
-        setCount(pageSize);
+        setNippies(getNippies("Shuffle", activeArt));
+        setCount(count || pageSize);
     }
 
     const handleSortViaKeyboard = (event) => {
@@ -49,6 +61,17 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
             return handleLoadMore();
         }
     }
+
+    const handleLoadAllViaKeyboard = (event) => {
+        if (event.keyCode === 13) {
+            return handleLoadAll();
+        }
+    }
+
+    useEffect(() => {
+        const sortOrder = sortCopy === "Alphabetize" ? "Shuffle" : "Alphabetize";
+        setNippies(getNippies(sortOrder, activeArt));
+    }, [activeArt, setNippies, sortCopy])
 
     if (!nippies) return null;
 
@@ -64,10 +87,15 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                     onClick={sortCopy === "Alphabetize" ? handleAlphabetize : handleShuffle}
                     onKeyDown={(event) => handleSortViaKeyboard(event)}
                 >{sortCopy}</Sort>
+                <SwapArtCTA
+                    onClick={() => activeArt === "Nippies" ? setActiveArt("BitNips") : setActiveArt("Nippies")}
+                >
+                    {activeArt === "Nippies" ? "Show BitNips" : "Show Nippies"}
+                </SwapArtCTA>
             </SortContainer>
             <CardGrid isMobile={isMobile}>
                 {visibleNippies.map((nippie, index) => (
-                    <Card key={index} nippie={nippie} isMobile={isMobile} />
+                    <Card key={index} nippie={nippie} activeArt={activeArt} />
                 ))}
             </CardGrid>
             {visibleNippies.length < Nippies.length &&
@@ -77,8 +105,40 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                     onClick={handleLoadMore}
                     onKeyDown={handleLoadMoreViaKeyboard}
                 >
-                    Load More...
+                    Load More
                 </LoadMore>
+            }
+            {count < Nippies.length &&
+                <LoadAll
+                    isMobile={isMobile}
+                    tabIndex={0}
+                    onClick={handleLoadAll}
+                    onKeyDown={handleLoadAllViaKeyboard}
+                >
+                    Load All
+                </LoadAll>
+            }
+            {activeArt === "BitNips" &&
+                <ExploreContainer>
+                    <TwitterLinkContainer isMobile={isMobile}>
+                        BitNip artwork by {" "}
+                        <TwitterLink
+                            isMobile={isMobile}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://twitter.com/@RippityDoo">
+                            @RippityDoo
+                        </TwitterLink>.
+                    </TwitterLinkContainer>
+                    <ExploreCTA
+                        isMobile={isMobile}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://ordinals.com/inscriptions/921903"
+                    >
+                        Explore our Ordinal Block
+                    </ExploreCTA>
+                </ExploreContainer>
             }
         </>
     );

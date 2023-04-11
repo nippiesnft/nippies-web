@@ -28,6 +28,17 @@ color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
+margin-right: 20px;
+`
+
+export const LoadAll = styled(Button)`
+background: none;
+border: none;
+color: #d21731;
+font-size: ${props => props.isMobile ? '20px' : '24px'};
+text-decoration: underline;
+cursor: pointer;
+margin-left: 20px;
 `
 
 export const SortContainer = styled.div`
@@ -35,9 +46,41 @@ margin-top:  ${props => props.isMobile ? '15px' : '30px'};;
 `
 
 export const Sort
- = styled(Button)`
+    = styled(Button)`
 color: #d21731;
 font-size: ${props => props.isMobile ? '20px' : '24px'};
 text-decoration: underline;
 cursor: pointer;
+margin-right: 20px;
+`
+
+export const SwapArtCTA
+    = styled.a`
+color: #d21731;
+font-size: ${props => props.isMobile ? '20px' : '24px'};
+text-decoration: underline;
+cursor: pointer;
+margin-left: 20px;
+`
+
+export const ExploreCTA
+    = styled.a`
+color: #d21731;
+font-size: ${props => props.isMobile ? '16px' : '20px'};
+text-decoration: underline;
+cursor: pointer;
+`
+
+export const ExploreContainer = styled.div`
+margin-top: 50px;
+`
+
+export const TwitterLinkContainer = styled.div`
+font-size: ${props => props.isMobile ? '16px' : '20px'};
+margin-bottom: 10px;
+`
+
+export const TwitterLink = styled.a`
+font-size: ${props => props.isMobile ? '16px' : '20px'};
+color: black;
 `
