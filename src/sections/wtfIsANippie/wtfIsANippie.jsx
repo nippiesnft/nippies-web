@@ -6,7 +6,8 @@ import {
     RightSide,
     Nuppy,
     Title,
-    Copy
+    Copy,
+    ExploreCTABlack
 } from './styles';
 
 const wtf = require("../../img/design/wtf.png");
@@ -27,10 +28,28 @@ export const WtfIsANippie = () => {
                 </>
                 <div tabIndex={0}>
                     <Copy isMobile={isMobile}>
-                        Nippies is a one-a-day art project that spanned the months between the initial Duppies announcement and the y00ts art reveal, concluding with a total cast of 84 nipple-clad creatures.
+                        {"Nippies is a one-a-day art project that parodied the DeGod's Duppies (now y00ts) art reveal, resulting in 100 nipple-clad creatures and a dreadful community ("}
+                        <ExploreCTABlack
+                            isMobile={isMobile}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://twitter.com/ScubaSteveArt/status/1559708060494336002?s=20"
+                        >
+                            learn more
+                        </ExploreCTABlack>
+                        {")."}
                     </Copy>
                     <Copy isMobile={isMobile}>
-                        With the support of our rowdy collector base, the original collection will eventually feature 100 hand-drawn characters and additional Nippie art experiences.
+                        To make matters worse, we created BitNips. These Bitcoin ordinals are so sequential, eco-friendly, and rug-ready, they'll make your head spin faster than a nip slip at the Super Bowl halftime show.{" "}
+                        <ExploreCTABlack
+                            isMobile={isMobile}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://ordinals.com/inscriptions/921903"
+                        >
+                            Explore our Block
+                        </ExploreCTABlack>
+                        {"."}
                     </Copy>
                 </div>
             </RightSide>

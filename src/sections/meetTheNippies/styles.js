@@ -63,14 +63,6 @@ cursor: pointer;
 margin-left: 10px;
 `
 
-export const ExploreCTA
-    = styled.a`
-color: #d21731;
-font-size: ${props => props.isMobile ? '12px' : '16px'};
-text-decoration: underline;
-cursor: pointer;
-`
-
 export const ExploreContainer = styled.div`
 font-size: ${props => props.isMobile ? '12px' : '16px'};
 margin-top: 50px;

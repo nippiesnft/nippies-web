@@ -28,11 +28,23 @@ min-height: ${props => props.isMobile ? '0px' : '350px'};
 
 export const Title = styled.img`
 width: 100%;
-margin-bottom: ${props => props.isMobile ? '20px' : '30px'};
+margin-bottom: ${props => props.isMobile ? '10px' : '30px'};
 margin-top: ${props => props.isMobile ? '0px' : '40px'};
 max-width: ${props => props.isMobile ? '200px' : '500px'};
 `
 
 export const Copy = styled.p`
 font-size: ${props => props.isMobile ? '12px' : '18px'};
+`
+
+export const ExploreCTA
+    = styled.a`
+color: #d21731;
+font-size: ${props => props.isMobile ? '12px' : '18px'};
+text-decoration: underline;
+cursor: pointer;
+`
+
+export const ExploreCTABlack = styled(ExploreCTA)`
+color: black;
 `

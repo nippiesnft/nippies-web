@@ -7,7 +7,6 @@ import {
     CardGrid,
     LoadAll,
     LoadMore,
-    ExploreCTA,
     ExploreContainer,
     Sort,
     SortContainer,
@@ -145,14 +144,6 @@ export const MeetTheNippies = ({ nippies, setNippies }) => {
                             @RippityDoo
                         </TwitterLink>.
                     </TwitterLinkContainer>
-                    <ExploreCTA
-                        isMobile={isMobile}
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        href="https://ordinals.com/inscriptions/921903"
-                    >
-                        Explore our Ordinal Block
-                    </ExploreCTA>
                 </ExploreContainer>
             }
         </>
