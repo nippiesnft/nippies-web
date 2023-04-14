@@ -49,6 +49,15 @@ export const WtfIsANippie = () => {
                         >
                             Explore our Block
                         </ExploreCTABlack>
+                        {" / "}
+                        <ExploreCTABlack
+                            isMobile={isMobile}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://magiceden.io/ordinals/marketplace/bitnips3"
+                        >
+                            Buy a BitNip
+                        </ExploreCTABlack>
                         {"."}
                     </Copy>
                 </div>
