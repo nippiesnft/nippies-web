@@ -54,7 +54,7 @@ export const WtfIsANippie = () => {
                             isMobile={isMobile}
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://magiceden.io/ordinals/marketplace/bitnips3"
+                            href="https://magiceden.io/ordinals/marketplace/bitnips"
                         >
                             Buy a BitNip
                         </ExploreCTABlack>
