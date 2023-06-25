@@ -545,7 +545,7 @@
         "imgUrl": "/nippies/dion.png",
         "exchangeArtUrl": "https://exchange.art/single/FhEak85DLYbe8z48A1e7bpze9Wo5G677kM9ikJVz2mvp"
     },
-        {
+    {
         "name": "Motley",
         "owner": "@trmoter",
         "imgUrl": "/nippies/motley.png",
@@ -557,10 +557,16 @@
         "imgUrl": "/nippies/vlad.png",
         "exchangeArtUrl": "https://exchange.art/single/BGK1cBmH3cwvDiBPRYhFz7J1hyiaZrHtJSPMy2tgCc8c"
     },
-        {
+    {
         "name": "Jason",
         "owner": "@sypsup_",
         "imgUrl": "/nippies/jason.png",
         "exchangeArtUrl": "https://exchange.art/single/GZUrTP2Hcf3Q95HVweWFmYBui6bsEFoLjQCwjg1FJ62n"
+    },
+    {
+        "name": "Rick",
+        "owner": "@RichwaterNFT",
+        "imgUrl": "/nippies/rick.png",
+        "exchangeArtUrl": "https://exchange.art/single/7zAH3KXo5fCT2PLdsz8hFnGC6UA827Dgckwdc3hYtCQv"
     }
 ]
