@@ -33,7 +33,7 @@ export const WtfIsANippie = () => {
                             isMobile={isMobile}
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://twitter.com/Nippies_/status/1660325091790712833?s=20"
+                            href="https://twitter.com/TheNippies/status/1660325091790712833?s=20"
                         >
                             learn more
                         </ExploreCTABlack>

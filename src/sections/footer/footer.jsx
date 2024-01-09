@@ -24,10 +24,10 @@ export const Footer = () => {
         <BottomDivider src={isMobile ? divideBottom : divideBottomLong} alt="nippies fur" />
         <Texture src={footerTexture} alt="nippies fur" />
         <DontFollowUs src={dontFollowUs} alt="dont follow us" isMobile={isMobile} tabIndex={0} />
-        <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/nippies_"}>
+        <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/TheNippies"}>
             <NippleTwitter src={twitterLogo} alt="nippie twitter logo" isMobile={isMobile} />
         </a>
-        <a rel="noopener noreferrer" target="_blank" href={"https://instagram.com/nippiesnft"}>
+        <a rel="noopener noreferrer" target="_blank" href={"https://instagram.com/thenippies"}>
             <NippleInstagram src={instaLogo} alt="nippie instagram logo" isMobile={isMobile} />
         </a>
         <FooterCopy isMobile={isMobile}>

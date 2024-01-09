@@ -26,7 +26,7 @@ export const NavBar = () => {
                 <NavLink href="#meet" isMobile={isMobile}>Meet</NavLink>
                 <NavLink href="#shop" isMobile={isMobile}>Shop</NavLink>
                 <NavLink href="#wtf" isMobile={isMobile}>Wtf</NavLink>
-                <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/nippies_"}>
+                <a rel="noopener noreferrer" target="_blank" href={"https://twitter.com/TheNippies"}>
                     <TwitterLogo src={navTwitter} alt="red twitter logo" isMobile={isMobile} />
                 </a>
             </NavLinks>
