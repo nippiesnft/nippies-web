@@ -45,7 +45,7 @@ export const WtfIsANippie = () => {
                             isMobile={isMobile}
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://ordinals.com/inscriptions/921903"
+                            href="https://ordinals.com/block/784173"
                         >
                             Explore our Block
                         </ExploreCTABlack>
