@@ -13,7 +13,7 @@ const twitterLogo = require("../../img/design/twitter.png")
 
 export const Card = ({ nippie, activeArt }) => {
     const isMobile = useIsMobile();
-    const formattedTwitterStr = `https://twitter.com/${nippie?.owner?.replace('@', '')}`;
+    const formattedTwitterStr = nippie.owner.length > 0 ? `https://twitter.com/${nippie?.owner?.replace('@', '')}` : null;
 
     return (
         <Container>
@@ -35,8 +35,11 @@ export const Card = ({ nippie, activeArt }) => {
                                 <span>{nippie.name}</span>
                             </Name>
                         </div>
-                        <TwitterLogo src={twitterLogo} alt="twitter-logo" />
-                        <CTALink rel="noopener noreferrer" target="_blank" href={formattedTwitterStr}>{nippie.owner}</CTALink>
+                        {nippie.owner.length > 0 &&
+                            <>
+                                <TwitterLogo src={twitterLogo} alt="twitter-logo" />
+                                <CTALink rel="noopener noreferrer" target="_blank" href={formattedTwitterStr}>{nippie.owner}</CTALink>
+                            </>}
                     </div>
                 }
                 {activeArt === "BitNips" &&

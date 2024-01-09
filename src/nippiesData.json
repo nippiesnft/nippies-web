@@ -568,5 +568,11 @@
         "owner": "@RichwaterNFT",
         "imgUrl": "/nippies/rick.png",
         "exchangeArtUrl": "https://exchange.art/single/7zAH3KXo5fCT2PLdsz8hFnGC6UA827Dgckwdc3hYtCQv"
+    },
+    {
+        "name": "Johnny (x3)",
+        "owner": "",
+        "imgUrl": "/nippies/johnny-3.png",
+        "exchangeArtUrl": "https://exchange.art/single/BqwqRJPnKBiEX8D7bamTq9cU4gayejmBx33XinoB2gJK"
     }
 ]
