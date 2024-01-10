@@ -570,8 +570,20 @@
         "exchangeArtUrl": "https://exchange.art/single/7zAH3KXo5fCT2PLdsz8hFnGC6UA827Dgckwdc3hYtCQv"
     },
     {
-        "name": "Johnny (x3)",
-        "owner": "",
+        "name": "Johnny (1/3)",
+        "owner": "@thefallensol",
+        "imgUrl": "/nippies/johnny-1.png",
+        "exchangeArtUrl": "https://exchange.art/single/BqwqRJPnKBiEX8D7bamTq9cU4gayejmBx33XinoB2gJK"
+    },
+    {
+        "name": "Johnny (2/3)",
+        "owner": "@superjimmer",
+        "imgUrl": "/nippies/johnny-2.png",
+        "exchangeArtUrl": "https://exchange.art/single/BqwqRJPnKBiEX8D7bamTq9cU4gayejmBx33XinoB2gJK"
+    },
+    {
+        "name": "Johnny (3/3)",
+        "owner": "@sol_js1",
         "imgUrl": "/nippies/johnny-3.png",
         "exchangeArtUrl": "https://exchange.art/single/BqwqRJPnKBiEX8D7bamTq9cU4gayejmBx33XinoB2gJK"
     }
