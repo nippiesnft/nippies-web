@@ -31,7 +31,7 @@ export const Footer = () => {
             <NippleInstagram src={instaLogo} alt="nippie instagram logo" isMobile={isMobile} />
         </a>
         <FooterCopy isMobile={isMobile}>
-            <Disclaimer tabIndex={0}>Copyright 2024. Nippies. All Rights Reserved.</Disclaimer>
+            <Disclaimer tabIndex={0}>Copyright 2025. The Nippies. All Rights Reserved.</Disclaimer>
             <CreatedBy tabIndex={0}>Website created by <Creator rel="noopener noreferrer" target="_blank" href="https://twitter.com/justbenfyi">Ben</Creator>.</CreatedBy>
         </FooterCopy>
     </>
