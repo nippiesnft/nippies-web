@@ -10,7 +10,7 @@ position: absolute;
 z-index: -1;
 max-height: ${props => props.isMobile ? '250px' : '475px'};
 left: ${props => props.isMobile ? '-55px' : '0px'};
-margin-top: ${props => props.isMobile ? '140px' : '12%'};
+margin-top: ${props => props.isMobile ? '140px' : '14%'};
 `
 
 export const LeftSide = styled.div`
