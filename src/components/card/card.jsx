@@ -5,12 +5,12 @@ import {
     BitNipImage,
     Details,
     Name,
-    TwitterLogo,
+    XLogo,
     CTALink,
     BurnedImage
 } from './styles'
 
-const twitterLogo = require("../../img/design/twitter.png")
+const xLogo = require("../../img/design/x.webp")
 
 export const Card = ({ nippie, activeArt }) => {
     const isMobile = useIsMobile();
@@ -43,7 +43,7 @@ export const Card = ({ nippie, activeArt }) => {
                         </div>
                         {nippie?.owner?.length > 0 && !nippie?.burned &&
                             <>
-                                <TwitterLogo src={twitterLogo} alt="twitter-logo" />
+                                <XLogo src={xLogo} alt="twitter-logo" />
                                 <CTALink rel="noopener noreferrer" target="_blank" href={formattedTwitterStr}>{nippie.owner}</CTALink>
                             </>}
                         {nippie?.burned &&

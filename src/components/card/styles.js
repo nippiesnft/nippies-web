@@ -44,10 +44,10 @@ export const Name = styled.a`
     text-decoration: none;
 `
 
-export const TwitterLogo = styled.img`
+export const XLogo = styled.img`
     color: black;
     max-width: 15px;
-    margin-right: 5px;
+    margin-right: 6px;
 `
 
 export const CTALink = styled.a`
