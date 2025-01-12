@@ -6,7 +6,8 @@ import {
     Details,
     Name,
     TwitterLogo,
-    CTALink
+    CTALink,
+    BurnedImage
 } from './styles'
 
 const twitterLogo = require("../../img/design/twitter.png")
@@ -17,9 +18,14 @@ export const Card = ({ nippie, activeArt }) => {
 
     return (
         <Container>
-            {activeArt === "Nippies" &&
+            {activeArt === "Nippies" && !nippie.burned &&
                 <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} tabIndex={-1}>
                     <Image src={nippie.imgUrl} alt={`${nippie.name}`} offset={nippie.offset} />
+                </a>
+            }
+            {activeArt === "Nippies" && nippie.burned &&
+                <a rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} tabIndex={-1}>
+                    <BurnedImage src={nippie.imgUrl} alt={`${nippie.name}`} offset={nippie.offset} />
                 </a>
             }
             {activeArt === "BitNips" &&
@@ -32,14 +38,17 @@ export const Card = ({ nippie, activeArt }) => {
                     <div>
                         <div>
                             <Name rel="noopener noreferrer" target="_blank" href={nippie.exchangeArtUrl} >
-                                <span>{nippie.name}</span>
+                                {nippie?.burned ? <span>{`${nippie.name} (Burned)`}</span> : <span>{nippie.name}</span>}
                             </Name>
                         </div>
-                        {nippie?.owner?.length > 0 &&
+                        {nippie?.owner?.length > 0 && !nippie?.burned &&
                             <>
                                 <TwitterLogo src={twitterLogo} alt="twitter-logo" />
                                 <CTALink rel="noopener noreferrer" target="_blank" href={formattedTwitterStr}>{nippie.owner}</CTALink>
                             </>}
+                        {nippie?.burned &&
+                            <span>{nippie?.burned}</span>
+                        }
                     </div>
                 }
                 {activeArt === "BitNips" &&

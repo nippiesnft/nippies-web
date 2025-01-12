@@ -417,13 +417,15 @@
         "name": "Lt. Vince",
         "owner": "@SOLBigBrain",
         "imgUrl": "/nippies/vince.png",
-        "exchangeArtUrl": "https://exchange.art/single/3whg4HVV8ygHg7S4yqetikPzLACTskNpDXRsXJzq2VnP"
+        "exchangeArtUrl": "https://exchange.art/single/3whg4HVV8ygHg7S4yqetikPzLACTskNpDXRsXJzq2VnP",
+        "burned": "2022 - 2024"
     },
     {
         "name": "Brian",
         "owner": "@SOLBigBrain",
         "imgUrl": "/nippies/brian.png",
-        "exchangeArtUrl": "https://exchange.art/single/9hBXQxfdV1CJg6jWkk6HAWbL18HSPhMM8bQT858QyXf5"
+        "exchangeArtUrl": "https://exchange.art/single/9hBXQxfdV1CJg6jWkk6HAWbL18HSPhMM8bQT858QyXf5",
+        "burned": "2022 - 2024"
     },
     {
         "name": "Eduardo",

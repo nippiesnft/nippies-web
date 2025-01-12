@@ -14,6 +14,18 @@ export const Image = styled.img`
     }
 `
 
+export const BurnedImage = styled.img`
+    filter: brightness(0.7); /* Lower brightness to make it look inactive */
+    opacity: 0.7; /* Adds a faded effect */
+    transform: ${props => props.offset ? `rotate(${props.offset}deg)` : 'rotate(0)'};
+    max-width: ${window.innerWidth < 700 ? '175px' : '215px'};
+    &:hover {
+        transform: ${props => props.offset ? `rotate(${props.offset}deg) scale(1.03)` : 'rotate(0)'};
+        -webkit-transform: ${props => props.offset ? `rotate(${props.offset}deg) scale(1.03)` : 'rotate(0)'};
+        transition: transform 0.5s ease;
+    }
+`;
+  
 export const BitNipImage = styled(Image)`
 margin: 12px;
 max-width: ${window.innerWidth < 700 ? '140px' : '180px'};
